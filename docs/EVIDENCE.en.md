@@ -185,6 +185,7 @@ python3 src/audit_base_pairs89.py
 ## 11. Precise statement of the result
 
 The supported conclusion is
+
 $$S(1)=1,\quad S(2)=4,\quad S(3)=13,\quad S(4)=33,\qquad87\le S(5)\le89.$$
 
 safe31700 is partial 87-term coverage, not an 87-term exclusion; the local 88-term construction families are not global exclusions either. Proving $`S(5)=89`$ requires both global exclusions. Alternatively, a valid 87- or 88-term representation would improve the upper bound.
