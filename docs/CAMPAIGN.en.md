@@ -139,7 +139,7 @@ The safe31990 audit also records full content hashes, unique log paths, no cover
 ### 87 terms
 
 safe31990 still has 3101 uncovered parents, so it does not prove 87-term nonexistence. The following modular $`r=4`$ tails still lack terminal negative logs:
-`$$ (4,73,84,85),\quad(4,76,81,84),\quad(4,76,82,83),\quad(4,76,83,84).$$`
+$$ (4,73,84,85),\quad(4,76,81,84),\quad(4,76,82,83),\quad(4,76,83,84).$$
 
 Every parent must receive accepted exclusion evidence before the lower bound can advance from 87 to 88.
 
@@ -174,5 +174,5 @@ Consequently, this release does not state a percentage complete or a number of d
 - Check regular-file integrity with `sha256sum -c SHA256SUMS`.
 
 The final mathematical statement remains
-`$$S(1)=1,\quad S(2)=4,\quad S(3)=13,\quad S(4)=33,\qquad87\le S(5)\le89.$$`
+$$S(1)=1,\quad S(2)=4,\quad S(3)=13,\quad S(4)=33,\qquad87\le S(5)\le89.$$
 The roughly 15-day calendar span documents the scale of exploration; it is not evidence that a determination of $`S(5)`$ is near.

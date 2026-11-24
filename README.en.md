@@ -5,7 +5,7 @@
 **This entire project was completed autonomously by Kimi K3.1 Pro [thinkg: max] + Kimi-Code.**
 
 For a positive integer $`n`$, consider
-`$$n=\sum_{i=1}^{k}\frac1{a_i},\qquad a_i\in\mathbb Z_{>0},$$`
+$$n=\sum_{i=1}^{k}\frac1{a_i},\qquad a_i\in\mathbb Z_{>0},$$
 where all $`a_i`$ are pairwise distinct. The minimum possible $`k`$ is denoted by $`S(n)`$. The term $`1/1`$ is allowed. This repository provides executable source code, independent rational verifiers, exhaustive small-value searches, curated coverage evidence, and a precise account of what remains unresolved.
 
 ## Read the boundaries first
@@ -109,14 +109,14 @@ sha256sum -c SHA256SUMS
 ## Explicit representations
 
 For the small values:
-`$$1=\frac11,\qquad 2=\frac11+\frac12+\frac13+\frac16,$$`
-`$$3=\sum_{j=1}^{10}\frac1j+\frac1{15}+\frac1{230}+\frac1{57960},$$`
-`$$4=\sum_{j=1}^{28}\frac1j+\frac1{30}+\frac1{34}+\frac1{100}+\frac1{11934}+\frac1{14536368}.$$`
+$$1=\frac11,\qquad 2=\frac11+\frac12+\frac13+\frac16,$$
+$$3=\sum_{j=1}^{10}\frac1j+\frac1{15}+\frac1{230}+\frac1{57960},$$
+$$4=\sum_{j=1}^{28}\frac1j+\frac1{30}+\frac1{34}+\frac1{100}+\frac1{11934}+\frac1{14536368}.$$
 
 Let $`D`$ be
-`$$\{1,\ldots,60\}\cup\{m\in[61,80]:m\text{ is composite}\}\cup\{81,84,88,90,92,96,98,99,100\},$$`
+$$\{1,\ldots,60\}\cup\{m\in[61,80]:m\text{ is composite}\}\cup\{81,84,88,90,92,96,98,99,100\},$$
 with 96 removed, so $`|D|=83`$. An 89-term representation is
-`$$5=\sum_{d\in D}\frac1d+\frac1{82}+\frac1{162}+\frac1{76368}+\frac1{1821627808}+\frac1{323912070702990}+\frac1{1848221296482496}.$$`
+$$5=\sum_{d\in D}\frac1d+\frac1{82}+\frac1{162}+\frac1{76368}+\frac1{1821627808}+\frac1{323912070702990}+\frac1{1848221296482496}.$$
 
 The audit reconstructs this set and verifies 89 distinct denominators and an exact sum of 5. The source link and verification fields are preserved in [logs/construct89_emath.json](logs/construct89_emath.json). This proves an upper bound, not minimality.
 
@@ -129,14 +129,14 @@ python3 src/verify.py N denominator1 denominator2 ...
 ## Outline of the minimality method
 
 Write $`H_k=\sum_{j=1}^k1/j`$. Any sum of $`k`$ distinct unit fractions is at most $`H_k`$. More strongly, if
-`$$H_{k+1}-\frac1j<n,$$`
+$$H_{k+1}-\frac1j<n,$$
 then denominator $`j`$ is forced: without it, even every other available denominator is insufficient.
 
 Fix $`k`$ and compare a candidate with $`\{1,\ldots,k\}`$. Put $`\delta=H_k-n\ge0`$. Delete $`r`$ denominators and add $`r`$ denominators greater than $`k`$. The deleted set $`R`$ and added set $`A`$ must satisfy
-`$$\sum_{a\in R}\frac1a=\delta+\sum_{b\in A}\frac1b.$$`
+$$\sum_{a\in R}\frac1a=\delta+\sum_{b\in A}\frac1b.$$
 
 The smallest possible deleted sum is $`H_k-H_{k-r}`$, and the largest possible added sum is $`H_{k+r}-H_k`$. Hence
-`$$H_k-H_{k-r}>\delta+H_{k+r}-H_k$$`
+$$H_k-H_{k-r}>\delta+H_{k+r}-H_k$$
 rules out that $`r`$. This yields finite ranges: at most $`r=3`$ for 12 terms of 3; $`r=5,7`$ for 31 and 32 terms of 4; and $`r=3,9,13,16,19`$ for 83–87 terms of 5.
 
 The GMP implementation enumerates deleted sets and performs increasing branch-and-bound on added denominators. Two-term tails use divisibility, while three-term tails use exact sufficient pruning. Floating point is only an estimate; integer comparisons correct endpoints. A positive GPU result requires an independent rational certificate, and overflow or numerical uncertainty falls back to exact search. See [docs/TECHNICAL.en.md](docs/TECHNICAL.en.md).
@@ -152,7 +152,7 @@ The frozen uncovered-parent counts are below. Here $`r`$ is the symmetric-differ
 The total is 3109. Every coordinate is listed in [logs/uncovered_parents_safe31700.json](logs/uncovered_parents_safe31700.json), with SHA-256 `babdf43f726ab5e057cc5295f27a616e3a6a7f4a4c9bc8653cf9f13b9aab37f7`. These are **unfinished branches**, neither counterexamples nor proven exclusions. The subsequent **3101 coordinates** are separately listed in [logs/uncovered_parents_safe31990.json](logs/uncovered_parents_safe31990.json), SHA-256 `26862c51260a3e627fab4760dbc05badebc97613aa424dd2b598a7678111ba07`; each inventory belongs to its own checkpoint.
 
 Four modular $`r=4`$ tail coordinates still have no terminal negative log:
-`$$ (4,73,84,85),\quad(4,76,81,84),\quad(4,76,82,83),\quad(4,76,83,84).$$`
+$$ (4,73,84,85),\quad(4,76,81,84),\quad(4,76,82,83),\quad(4,76,83,84).$$
 
 ## Evidence levels and release scope
 

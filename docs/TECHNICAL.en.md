@@ -7,15 +7,15 @@ This document explains why the searches are finite, how pruning preserves comple
 ## 1. Harmonic bounds and forced prefixes
 
 Let
-`$$H_k=\sum_{j=1}^k\frac1j.$$`
+$$H_k=\sum_{j=1}^k\frac1j.$$
 A sum of $`k`$ distinct unit fractions is at most $`H_k`$, so no representation exists when $`H_k<n`$. In particular, three distinct unit fractions sum to at most $`1+1/2+1/3=11/6<2`$, hence $`S(2)=4`$.
 
 In particular,
-`$$H_{10}=2.928968\ldots<3<H_{11}=3.019877\ldots.$$`
+$$H_{10}=2.928968\ldots<3<H_{11}=3.019877\ldots.$$
 Thus the harmonic bound alone directly excludes only 10 terms; the 11- and 12-term cases still require exhaustive search. It would be incorrect to write $`H_{11}<3`$.
 
 If
-`$$H_{k+1}-\frac1j<n,$$`
+$$H_{k+1}-\frac1j<n,$$
 then $`j`$ is forced: even taking every other denominator in $`\{1,\ldots,k+1\}\setminus\{j\}`$ is insufficient. `src/symdiff.cpp` computes this forced prefix length $`p`$ and does not enumerate those denominators again.
 
 This condition is necessary, not sufficient. The remaining deleted set and added tail must still be solved exactly.
@@ -23,12 +23,12 @@ This condition is necessary, not sufficient. The remaining deleted set and added
 ## 2. Symmetric difference makes the problem finite
 
 Fix $`k`$ and compare a candidate with $`\{1,\ldots,k\}`$. Delete $`r`$ denominators and add $`r`$ denominators greater than $`k`$. Define
-`$$\delta=H_k-n\ge0,\qquad R=\text{deleted set},\qquad A=\text{added set}.$$`
+$$\delta=H_k-n\ge0,\qquad R=\text{deleted set},\qquad A=\text{added set}.$$
 The necessary and sufficient balance is
-`$$\sum_{a\in R}\frac1a=\delta+\sum_{b\in A}\frac1b.$$`
+$$\sum_{a\in R}\frac1a=\delta+\sum_{b\in A}\frac1b.$$
 
 Forced-prefix denominators cannot be deleted, so $`r\le k-p`$. For fixed $`r`$, the minimum deleted sum and maximum added sum are
-`$$m_r=H_k-H_{k-r},\qquad M_r=H_{k+r}-H_k.$$`
+$$m_r=H_k-H_{k-r},\qquad M_r=H_{k+r}-H_k.$$
 If $`m_r>\delta+M_r`$, that level is impossible. Since $`m_r`$ increases and $`M_r`$ decreases, the first such $`r`$ also rules out every later level.
 
 | $`n,k`$ | Forced prefix $`p`$ | Maximum allowed $`r`$ |
@@ -60,9 +60,9 @@ The next deleted denominator is strictly increasing. A candidate is skipped if t
 Rational numbers are stored as GMP integer numerators and denominators, with reduction after each operation. `integer_bound` computes an integer upper bound for the first denominator when $`r`$ terms remain. Large-integer overflow is never silently truncated.
 
 For a first denominator $`a`$, the implementation also checks
-`$$p\,a(a+1)\le q(ra+1),$$`
+$$p\,a(a+1)\le q(ra+1),$$
 which is equivalent to
-`$$\frac pa\le\frac ra-\frac1{a(a+1)}=\frac{ra+1}{a(a+1)}.$$`
+$$\frac pa\le\frac ra-\frac1{a(a+1)}=\frac{ra+1}{a(a+1)}.$$
 This necessary condition comes from the next term $`1/(a+1)`$ alone; it is not presented as a complete bound. Exact enumeration or a tail solver still follows.
 
 ### 4.2 One- and two-term tails
@@ -74,9 +74,9 @@ A two-term tail requires $`p/q=1/a+1/b`$ with $`b>a`$. The ordinary path enumera
 ### 4.3 Complete factorization fallback
 
 With $`\gcd(p,q)=1`$, define
-`$$g=\gcd(a,q),\quad s=q/g,\quad c=a/g,\quad D=pa-q,\quad h=D/g.$$`
+$$g=\gcd(a,q),\quad s=q/g,\quad c=a/g,\quad D=pa-q,\quad h=D/g.$$
 From $`D\mid aq`$ and coprimality,
-`$$h\mid g,\qquad h<s,\qquad pc=s+h,\qquad b=gcs/h.$$`
+$$h\mid g,\qquad h<s,\qquad pc=s+h,\qquad b=gcs/h.$$
 The complete fallback enumerates every divisor $`g`$ of $`q`$ and every positive divisor $`h`$ of $`g`$, then tests $`h<s`$, $`h\equiv-s\pmod p`$, and the final integer identity. It does not test only the least residue.
 
 When $`p^2>2q`$, we have $`a<2q/p<p`$, so $`g<p`$ and $`h<p`$. The least nonnegative residue then covers every possibility, and the fast path remains complete. The old `full=True` fallback incorrectly used the least residue without this condition. The correction changes only the complete fallback; old logs are not retroactively accepted merely because the new code passes regression.
@@ -86,7 +86,7 @@ When $`p^2>2q`$, we have $`a<2q/p<p`$, so $`g<p`$ and $`h<p`$. The least nonnega
 ### 4.4 CUDA two-term tail
 
 `src/two_tail.py` factors $`p,q`$, builds congruence lookup tables from factor groups, and calls `src/two_tail`. The CUDA program enumerates the other factor group and returns candidate indices. The host reconstructs candidates and checks
-`$$a=(u+q)/p,\qquad b=(v+q)/p,\qquad b>a,$$`
+$$a=(u+q)/p,\qquad b=(v+q)/p,\qquad b>a,$$
 plus every integer divisibility requirement. Truncated buffers, abnormal exits, or incomplete factorization cause failure rather than a negative conclusion.
 
 The GPU only screens candidates. Final acceptance uses exact integer verification, so it would be incorrect to claim that every branch was proved by the GPU.
@@ -94,11 +94,11 @@ The GPU only screens candidates. Final acceptance uses exact integer verificatio
 ## 5. Exact sufficient pruning for three-term tails
 
 For target $`p/q`$ and first denominator $`a`$, put $`D=pa-q`$. Write the reduced remainder after subtracting $`1/a`$ as
-`$$\frac{D/\gamma}{aq/\gamma},\qquad \gamma\le a^2.$$`
+$$\frac{D/\gamma}{aq/\gamma},\qquad \gamma\le a^2.$$
 The first possible second denominator is
-`$$b_0=\max\left(a+1,\left\lfloor\frac{aq}{D}\right\rfloor+1\right).$$`
+$$b_0=\max\left(a+1,\left\lfloor\frac{aq}{D}\right\rfloor+1\right).$$
 If
-`$$D^2>4a^3q,\qquad Db_0-aq>a^2b_0^2,$$`
+$$D^2>4a^3q,\qquad Db_0-aq>a^2b_0^2,$$
 then the two-term tail already fails at $`b_0`$. The first inequality supplies the monotone-prefix property and rules out all later $`b`$. Since $`\gamma\le a^2`$, these stronger conditions are sufficient for exclusion.
 
 Failure of the conditions causes no pruning, and arithmetic overflow returns to the original exact search. Floating point estimates integer quotients only; exact integer comparisons correct endpoints. [logs/pruning_regression_summary.json](../logs/pruning_regression_summary.json) summarizes 20736 wide cases with no failure, 54039 first-denominator cases with 1150 prunes and 21475 positive first terms preserved, and 2404 small GPU tasks with no failure. These support the implementation; performance counts are not formal exclusion counts.
@@ -144,7 +144,7 @@ This history explains the conservative acceptance rule of safe labels, full cont
 ## 9. Parent coverage and global exclusion
 
 For $`k=87`$, a depth-three parent is $`(r,x,y)`$, with children $`(r,x,y,z)`$ satisfying
-`$$z=y+1,\ldots,87-r+3.$$`
+$$z=y+1,\ldots,87-r+3.$$
 It has $`87-r-y+3`$ required children. For example, $`(11,51,75)`$ requires negative results at $`z=76,77,78,79`$ before it can be removed from the uncovered set.
 
 `coverage87_distinct_v1.py` checks root exclusions, secondary exclusions, and depth-three children. Scoped logs print each `uncovered_parent r x y`. A layer is closed only when all its parents are closed, and the entire $`k=87`$ case is excluded only when every relevant layer is closed.
@@ -184,5 +184,5 @@ The curated `make audit` invokes only the packaged independent auditor. Producti
 At safe31700, layers r4–r13 still contain 14, 155, 338, 386, 658, 574, 436, 314, 207, and 27 uncovered parents. Every coordinate is listed in `logs/uncovered_parents_safe31700.json`. Only additional accepted negative logs or valid representations can improve the result.
 
 Therefore the final statement remains
-`$$S(1)=1,\quad S(2)=4,\quad S(3)=13,\quad S(4)=33,\qquad87\le S(5)\le89.$$`
+$$S(1)=1,\quad S(2)=4,\quad S(3)=13,\quad S(4)=33,\qquad87\le S(5)\le89.$$
 Any stronger exact value for $`S(5)`$ requires a new mathematical proof or new complete coverage, not merely more unreviewed computation.
