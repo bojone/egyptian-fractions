@@ -1,0 +1,23 @@
+nodes=100663296 depth=6 seconds=292.929
+nodes=100663296 depth=6 seconds=284.732
+nodes=117440512 depth=5 seconds=244.381
+nodes=83886080 depth=5 seconds=159.055
+nodes=100663296 depth=6 seconds=189.519
+nodes=117440512 depth=5 seconds=296.54
+nodes=83886080 depth=6 seconds=234.744
+nodes=100663296 depth=6 seconds=284.646
+nodes=83886080 depth=6 seconds=248.013
+nodes=100663296 depth=6 seconds=280.07
+nodes=33554432 depth=6 seconds=89.3478
+nodes=117440512 depth=6 seconds=335.178
+nodes=167772160 depth=6 seconds=505.086
+nodes=67108864 depth=6 seconds=178.786
+nodes=167772160 depth=6 seconds=474.747
+nodes=134217728 depth=6 seconds=404.355
+nodes=16777216 depth=6 seconds=44.0497
+nodes=33554432 depth=6 seconds=94.4385
+nodes=50331648 depth=6 seconds=141.148
+nodes=67108864 depth=6 seconds=191.138
+nodes=16777216 depth=6 seconds=27.7886
+r=10 fixed=64,75,78, xnodes=120 ynodes=5396169732 seconds=14951.8 result=no
+engine=cpu-gpu-three-v1

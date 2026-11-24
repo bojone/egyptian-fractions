@@ -1,0 +1,20 @@
+scoped coverage only: r=4; not a global coverage total
+uncovered_parent 4 73 83
+uncovered_parent 4 73 84
+uncovered_parent 4 75 82
+uncovered_parent 4 76 81
+uncovered_parent 4 76 82
+uncovered_parent 4 76 83
+uncovered_parent 4 77 80
+uncovered_parent 4 77 81
+uncovered_parent 4 78 79
+uncovered_parent 4 78 80
+uncovered_parent 4 78 81
+uncovered_parent 4 79 80
+uncovered_parent 4 79 81
+uncovered_parent 4 80 81
+r=4: root exclusions 50/68; secondary exclusions 274/288; uncovered 14
+verified_safe_logs: 1
+unverified_safe_owner_logs: 5
+representations found: []
+uncovered branches: 14

@@ -1,0 +1,5 @@
+n=5 k=83 prefix=71 delta=0.00206827
+r=1 xnodes=13 ynodes=12 seconds=2.4502e-05 result=no
+r=2 xnodes=41 ynodes=29 seconds=9.8544e-05 result=no
+r=3 xnodes=39 ynodes=34 seconds=9.4845e-05 result=no
+r-bound=4

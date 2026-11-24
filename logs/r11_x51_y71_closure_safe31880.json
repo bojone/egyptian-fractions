@@ -1,0 +1,132 @@
+{
+  "valid": true,
+  "scope": "r11-only no-cache coverage difference and reconstruction linked to safe31880",
+  "parent": [
+    11,
+    51,
+    71
+  ],
+  "parent_closed": true,
+  "closure_mode": "depth3_complete",
+  "previous_scope_stage": 31780,
+  "previous_scoped_log": "logs/r11_scoped_coverage_safe31780.log",
+  "previous_scoped_sha256": "bc8df64e641007a0bc37f74107681aec7180956c351643e9fd03167ff6dfb4cd",
+  "previous_layer_uncovered_parents": 313,
+  "current_scoped_log": "logs/r11_scoped_coverage_safe31880.log",
+  "current_scoped_sha256": "eb7e8d043b45a9893a528a2d5d85a61399ebab548d05667f088a785500f78060",
+  "current_layer_uncovered_parents": 312,
+  "coverage_cache_used": false,
+  "global_snapshot": "logs/production_safe31880_3107.json",
+  "global_snapshot_sha256": "427757ba703cbf9502234e255d553f47fe9110d12cc0c04c8d6d3888eb0c1d4d",
+  "global_uncovered_parents": 3107,
+  "verified_owner_logs": 277032,
+  "S5_bounds": [
+    87,
+    89
+  ],
+  "representations_found": [],
+  "global_87_exclusion_complete": false,
+  "new_search_workers_started": false,
+  "production_changed": false,
+  "closure_observed_by_stage": 31880,
+  "first_closure_stage_claimed": false,
+  "created_at": "2026-11-24T08:46:26.876044+00:00",
+  "records": [
+    {
+      "coordinate": [
+        11,
+        51,
+        71,
+        72
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y71_z72.log",
+      "log_sha256": "ab506072dd7f08053cb01d57f4c7e0b44ee4b05e7be5b90eaf68d2b9300dc605",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyfourth_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        71,
+        73
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y71_z73.log",
+      "log_sha256": "22c30e22cec041ae25457ffb649c20aca3cff47754a53cabdf45f96c46b05dcc",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyfourth_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        71,
+        74
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y71_z74.log",
+      "log_sha256": "309e90b2a48a44b00d51c47764c7ee2aa47717b10ecf65c9fcbc3b12cc9a225e",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyfourth_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        71,
+        75
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y71_z75.log",
+      "log_sha256": "2e6c62c4bb5e1e6994ae8b2ddc448d78663a22eaef8a6a8c8fecafd682f2ec7d",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyfourth_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        71,
+        76
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y71_z76.log",
+      "log_sha256": "c0655438e469e8b11514853adb38c8ae5c5ea5ed1d094f24dd7f2caa7735e9f4",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyfourth_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        71,
+        77
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y71_z77.log",
+      "log_sha256": "f0ae97bae3adbb6c49f22dd8fdc4cc20b7eecc896ccf1e12a71ed6eeb507024c",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyfourth_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        71,
+        78
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y71_z78.log",
+      "log_sha256": "75a8ee134035a96b4cdaf2b4ca4e5b392aaaa35c3d599f15fed8df48a970ab92",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyfourth_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        71,
+        79
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y71_z79.log",
+      "log_sha256": "7359d1813207a68a8eb2a622f39612f85863e93fa56915a6f94ab6c44bfa0792",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyfourth_verification.json"
+    }
+  ]
+}

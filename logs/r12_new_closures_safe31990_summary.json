@@ -1,0 +1,42 @@
+{
+  "valid": true,
+  "stage": 31990,
+  "previous_stage": 31640,
+  "previous_layer_uncovered_parents": 207,
+  "current_layer_uncovered_parents": 206,
+  "closed_parents": [
+    {
+      "parent": [
+        12,
+        57,
+        73
+      ],
+      "mode": "depth3_complete",
+      "certificate": "logs/r12_x57_y73_closure_safe31990.json",
+      "accepted_coordinate_count": 5,
+      "z_values": [
+        74,
+        75,
+        76,
+        77,
+        78
+      ]
+    }
+  ],
+  "closed_parent_count": 1,
+  "accepted_coordinate_count": 5,
+  "scoped_coverage_log": "logs/r12_scoped_coverage_safe31990.log",
+  "scoped_coverage_sha256": "49c54e8952315d04dc16bb59429625f9387194acda79b7ed6b3a403a8d6d9260",
+  "global_snapshot": "logs/production_safe31990_3101.json",
+  "global_snapshot_sha256": "795a331bcc41724b63766123b6eb8a90dae9d5571871cf3964e61a2c68845f16",
+  "global_uncovered_parents": 3101,
+  "verified_owner_logs": 277076,
+  "S5_bounds": [
+    87,
+    89
+  ],
+  "global_87_exclusion_complete": false,
+  "new_search_workers_started": false,
+  "production_changed": false,
+  "created_at": "2026-11-24T09:15:49.923544+00:00"
+}

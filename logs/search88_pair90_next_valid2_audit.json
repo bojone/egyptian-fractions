@@ -1,0 +1,23 @@
+{
+  "valid": true,
+  "complete_exact_two": true,
+  "pairs": [
+    [
+      76,
+      100
+    ],
+    [
+      77,
+      100
+    ]
+  ],
+  "negative_count": 2,
+  "representations": [],
+  "global_88_nonexistence_claimed": false,
+  "S5_upper_bound": 89,
+  "source_sha256": "7d9934570adc807dce967873d2c86ffdebc7404b487a1d0ac51f0676a1d2dad2",
+  "binary_sha256": "1cfbf449e44cd1ff03082d036f53502846a8f5dab6813ddd13e48f323e55b38a",
+  "source_report": "logs/search88_pair90_next_valid2_results.json",
+  "source_report_sha256": "8a312d6d8367928ac624e43cbe4834f73b3e1ed3fa99ed924857ac6829f7ff1e",
+  "created_at": "2026-11-20T11:12:43.314284+00:00"
+}

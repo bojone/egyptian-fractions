@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "scope": "Complete pair-to-one and triple-to-one merges inside the known 89-term representation only",
+  "local_only": true,
+  "global_88_nonexistence_claimed": false,
+  "source": "logs/construct89_emath.json",
+  "source_sha256": "88e9933185e26f2cbdfcdfe7ff381cf47dbbfe226c9298efc60091b077148f49",
+  "checked_pairs": 3916,
+  "checked_triples": 113564,
+  "unit_sum_pairs_with_duplicate_merged_denominator": 58,
+  "unit_sum_triples_with_duplicate_merged_denominator": 214,
+  "representations": [],
+  "found_88": false,
+  "found_87": false,
+  "created_at": "2026-11-20T07:05:08.333749+00:00"
+}

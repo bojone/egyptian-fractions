@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.tmp
+*.swp
+*.swo
+src/symdiff_exact
+src/two_tail
+src/tmp/
+src/compat/
+production/fixed_server
+production/tmp/
+production/compat/
+results/validation/
+*.ncu-rep
+*.nsys-rep
+core

@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "r": 11,
+  "stage": 31910,
+  "previous_stage": 31880,
+  "previous_count": 312,
+  "current_count": 311,
+  "closed_parents": [
+    [
+      11,
+      51,
+      73
+    ]
+  ],
+  "accepted_coordinate_count": 6,
+  "coverage": "logs/r11_scoped_coverage_safe31910_recheck.log",
+  "coverage_sha256": "1e0db1df08c32b220ab969aaadc39652d357ebdcef409cf24ab995dd26c097f0",
+  "summary": "logs/r11_new_closures_safe31910_summary.json",
+  "verified_existing": true
+}

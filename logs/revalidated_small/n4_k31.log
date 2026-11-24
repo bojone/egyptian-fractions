@@ -1,0 +1,7 @@
+n=4 k=31 prefix=17 delta=0.0272452
+r=1 xnodes=15 ynodes=14 seconds=2.0855e-05 result=no
+r=2 xnodes=76 ynodes=62 seconds=0.000147566 result=no
+r=3 xnodes=165 ynodes=421 seconds=0.000599934 result=no
+r=4 xnodes=122 ynodes=291 seconds=0.000424679 result=no
+r=5 xnodes=20 ynodes=12 seconds=3.7944e-05 result=no
+r-bound=6

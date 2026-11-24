@@ -1,0 +1,29 @@
+{
+  "valid": true,
+  "scope": "Every one-split/one-merge neighbor in the stated split domain, then all direct pair-to-one and triple-to-one merges",
+  "split_domain": "All divisor splits for denominators not in LARGE; LARGE splits use divisors at most 64 and require new denominators below 2^512",
+  "large_tail": [
+    82,
+    162,
+    76368,
+    1821627808,
+    323912070702990,
+    1848221296482496
+  ],
+  "split_candidates": 359,
+  "unique_split_states": 238,
+  "merge_applications": 238,
+  "unique_new_89_states": 0,
+  "direct_pair_merge_checks": 0,
+  "direct_triple_merge_checks": 0,
+  "representations": [],
+  "found_88": false,
+  "found_87": false,
+  "global_88_nonexistence_claimed": false,
+  "neighbor_examples": [],
+  "source": "logs/construct89_emath.json",
+  "source_sha256": "88e9933185e26f2cbdfcdfe7ff381cf47dbbfe226c9298efc60091b077148f49",
+  "program_sha256": "07c853b1f2e00e6de1d3e280eafbf55e4506958ef4eab6317a7a35d06c5f7983",
+  "seconds": 1.248965036123991,
+  "created_at": "2026-11-20T10:19:39.109525+00:00"
+}

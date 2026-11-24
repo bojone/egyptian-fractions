@@ -1,0 +1,83 @@
+{
+  "valid": true,
+  "stage": 31700,
+  "scope": "Curated historical-audit summary; not a complete-coverage claim",
+  "counts": {
+    "86": {
+      "negative_logs": 236879,
+      "engines": {
+        "none": 202530,
+        "engine=cpu-gpu-three-v1": 34349
+      }
+    },
+    "87": {
+      "negative_logs": 397278,
+      "engines": {
+        "engine=cpu-gpu-three-v1": 323168,
+        "none": 73954,
+        "engine=cpu-gpu-quad-candidate-v1": 6,
+        "engine=cpu-gpu-pair-candidate-v1": 91,
+        "engine=cpu-gpu-triple-candidate-v1": 59
+      }
+    }
+  },
+  "depth4_counts": {
+    "86": {
+      "negative_logs": 206,
+      "engines": {
+        "none": 88,
+        "engine=cpu-gpu-three-v1": 118
+      }
+    },
+    "87": {
+      "negative_logs": 97,
+      "engines": {
+        "none": 9,
+        "engine=cpu-gpu-three-v1": 88
+      }
+    }
+  },
+  "violations": [],
+  "positive_logs": {
+    "86": [],
+    "87": []
+  },
+  "depth4_positive_logs": {
+    "86": [],
+    "87": []
+  },
+  "audit_sha256": "ce48b523f25d7c73d99d940666e58725b45a95c885945c071602d0bc91811362",
+  "fixed_static_input_sha256": "cb42888b4e35c56dfa7a849645639c37e6ff9d20d21a5b488a36efa403953413",
+  "static_history_preserved": true,
+  "static_input_restored": true,
+  "history_atomic_write": true,
+  "r4_pending_coordinates": [
+    [
+      4,
+      73,
+      84,
+      85
+    ],
+    [
+      4,
+      76,
+      81,
+      84
+    ],
+    [
+      4,
+      76,
+      82,
+      83
+    ],
+    [
+      4,
+      76,
+      83,
+      84
+    ]
+  ],
+  "r4_negative_certificate_created": false,
+  "engine_label_changes_do_not_add_coverage": true,
+  "source_validation": "logs/two_tail_history_safe31700_validation.json"
+}

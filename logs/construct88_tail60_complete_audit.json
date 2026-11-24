@@ -1,0 +1,36 @@
+{
+  "valid": true,
+  "scope": "all seven-element subsets of the last 60 denominators, with q<=10000000000",
+  "processed_i0": [
+    29,
+    82
+  ],
+  "expected_subsets": 386206920,
+  "combined_subsets": 386206920,
+  "complete_tail60_local_negative": true,
+  "found88": false,
+  "counters": {
+    "subsets": 386206920,
+    "first_denominator_candidates": 2021851780,
+    "second_denominator_candidates": 12004056316,
+    "third_denominator_candidates": 330991519375,
+    "reduced_two_tails": 4537323,
+    "factor_candidates": 2854399317,
+    "covered_previous_q": 0,
+    "skipped_large_q": 330986982052,
+    "unsupported": 0
+  },
+  "seconds_sum": 51341.85,
+  "q_limit": 10000000000,
+  "large_q_skipped_not_excluded": 330986982052,
+  "gamma30_audit": "logs/construct88_gamma30_independent_audit.json",
+  "gamma60_audit": "logs/construct88_gamma40_60_independent_audit.json",
+  "gamma30_report_sha256": "2ecdfa4f584fe40af5cf21c987970a8655a3df6dea839cc211724a209486046a",
+  "gamma60_report_sha256": "b38383ac2145965db7dbf24224fcd9991b4969f13d90d75cb2bf301e3fda2b05",
+  "binary_sha256": "897a58960e143c0c0d0d2050e9c26ffbc0001f514a59106be4e1610009417403",
+  "source_sha256": "63bb22cc4486d47eb49e50ed596e2ee2d1e9e3f57ee49b6db3fdb13dcbf15b56",
+  "launcher_failure": "incorrect expected gamma60 subset count in launcher; independent reports and actual ranges are valid",
+  "global_88_nonexistence_claimed": false,
+  "S5_upper_bound_unchanged": 89,
+  "created_at": "2026-11-20T04:12:36.904201+00:00"
+}

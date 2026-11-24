@@ -1,0 +1,28 @@
+{
+  "valid": true,
+  "scope": "all 84 single-base deletions from the 90-term base, each followed by a complete five-divisor-tail search",
+  "variants": 84,
+  "complete_84_exclusion": true,
+  "exact_historical_negatives": 80,
+  "exact_recomputed_negatives": 4,
+  "invalid_historical_targets_recomputed": [
+    25,
+    50,
+    75,
+    100
+  ],
+  "all_base_denominators_covered_exactly_once": true,
+  "all_targets_verified_with_exact_rational_arithmetic": true,
+  "found88": false,
+  "visited_total": 21940769,
+  "sum_worker_seconds": 841.154327,
+  "source_sha256": "d700d36f55e9f4095f3bc599f9c68fb578bd01eb8fa0f5b8d2184675ede66d19",
+  "binary_sha256": "9da1da086e68f6bfba250da8f75b399b7efc334594c2eac0992d0388994aa592",
+  "driver_sha256": "7ef0dce1e9d370fa5cfd1b691a82448c07741024c815f8c7be85db0e42e99dfe",
+  "selftest": "logs/search88_exact_five_selftest.log",
+  "old_audit": "logs/search88_v90_five_target_audit.json",
+  "exact_four_results": "logs/search88_exact_five90_results.json",
+  "global_88_nonexistence_claimed": false,
+  "S5_upper_bound_unchanged": 89,
+  "created_at": "2026-11-20T03:52:32.436353+00:00"
+}

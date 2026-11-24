@@ -1,0 +1,7145 @@
+{
+  "valid": true,
+  "counterexample": "logs/prefix_target_counterexample.json",
+  "paused_workers": 39,
+  "affected_engine_labels": [
+    "cpu-gpu-pair-candidate-v1",
+    "cpu-gpu-triple-candidate-v1",
+    "cpu-gpu-quad-candidate-v1"
+  ],
+  "prior_candidate_derived_coverage_not_certified": true,
+  "S5_bounds": [
+    87,
+    89
+  ],
+  "safe_86_exclusion_unchanged": true,
+  "89_upper_bound_unchanged": true,
+  "live_snapshot": "logs/pigeonhole_many_final_snapshot.json",
+  "status": "safe revalidation coverage; affected candidate labels excluded",
+  "strict_uncovered_parents_current": 3109,
+  "uncovered_by_r": {
+    "4": 14,
+    "5": 155,
+    "6": 338,
+    "7": 386,
+    "8": 658,
+    "9": 574,
+    "10": 436,
+    "11": 314,
+    "12": 207,
+    "13": 27,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0
+  },
+  "r13_closed": false,
+  "r14_closed": true,
+  "r13_closure_status": "27 uncovered parents remain",
+  "r14_closure_status": "closed after safe full revalidation of r14_x66_y68_z76",
+  "coverage": "logs/goal87_safe31700.log",
+  "coverage_returncode": 1,
+  "coverage_returncode_meaning": "valid safe partial coverage; uncovered parents remain",
+  "coverage_sha256": "88d9f2e8bf74d557aad87a52f4314a68b01fd9d905daea8a9f302d0775eeb3fe",
+  "audit_report": "logs/goal87_safe31700_audit.json",
+  "verified_owner_logs": 276997,
+  "unverified_current_owner_logs_excluded": 1669,
+  "verified_owner_mapping": "logs/safe31700_verified_safe_owners.json",
+  "coverage_cache": "logs/coverage_safe31700_cache.json",
+  "safe_revalidation": "logs/prefix_target_requeue.json",
+  "scheduler_nonpaused": 288,
+  "duplicate_active_coordinates": [],
+  "found87": false,
+  "found88": false,
+  "global_87_exclusion_complete": false,
+  "corrected_candidate_status": "full safe crosscheck completed; corrected candidate is slower and not deployed",
+  "created_at": "2026-11-24T07:58:00.817953+00:00",
+  "updated_at": "2026-11-24T07:58:00.817953+00:00",
+  "previous": "logs/production_safe31690_3110.json",
+  "net_parent_change_from_previous": -1,
+  "new_negative_logs": 2525,
+  "r14_safe_log": "logs/fixed87_depth3/r14_x66_y68_z76.log",
+  "r14_safe_log_sha256": "98b844fbc1f82b82bfb5473f0f3651a837aa378429d6f70b70086de7d2554151",
+  "r14_recovered_controller": "logs/exact_r14_safe_persistent_recovered_controller.json",
+  "r14_owner_report": "logs/dual_owner_789303_retired_verification.json",
+  "lex_owner_report": "logs/dual_owner_789323_twentyfirst_verification.json",
+  "lex_accepted_negatives": 24113,
+  "zero_node_independent_checks": "logs/safe_lex_zero_node_checks.json",
+  "lex_rebalance": "logs/safe_lex_rebalance_pause.json",
+  "lex_boost_owner_report": "logs/dual_owner_789431_nineteenth_verification.json",
+  "r12_lex_owner_report": "logs/dual_owner_789515_third_verification.json",
+  "r12_lex_rebalance": "logs/safe_r12_lex_rebalance_pause.json",
+  "lex_boost_accepted_negatives": 2758,
+  "r12_lex_accepted_negatives": 22235,
+  "original_pigeonhole_regression": "logs/original_pigeonhole_interface_regression.json",
+  "corrected_r12_safe_crosscheck": "logs/corrected_r12_safe_crosscheck.json",
+  "r12_lex_boost_owner_report": "logs/dual_owner_789569_second_verification.json",
+  "r12_lex_boost_accepted_negatives": 2124,
+  "r12_zero_node_independent_checks": "logs/safe_r12_zero_node_checks.json",
+  "construct88_status": "logs/construct88_current_status.json",
+  "r11_lex_owner_report": "logs/dual_owner_789776_nineteenth_verification.json",
+  "r11_rebalance": "logs/safe_r11_lex_rebalance_pause.json",
+  "r11_zero_node_independent_checks": "logs/safe_r11_zero_node_checks.json",
+  "r11_lex_accepted_negatives": 24356,
+  "coverage_cache_policy": "per-record owner/log digest/file identity; unchanged validated records may be reused",
+  "r10_lex_owner_report": "logs/dual_owner_789857_nineteenth_verification.json",
+  "r10_lex_accepted_negatives": 21934,
+  "r10_zero_node_independent_checks": "logs/safe_r10_zero_node_checks.json",
+  "r8_lex_owner_report": "logs/dual_owner_789940_eighteenth_verification.json",
+  "r8_lex_accepted_negatives": 23100,
+  "r8_rebalance": "logs/safe_r8_lex_rebalance_pause.json",
+  "r9_lex_owner_report": "logs/dual_owner_789902_eighteenth_verification.json",
+  "r9_lex_accepted_negatives": 21496,
+  "r9_rebalance": "logs/safe_r9_lex_rebalance_pause.json",
+  "r14_cache_regression": "logs/goal87_r14_cache_regression.log",
+  "r7_rebalance": "logs/safe_r7_lex_rebalance_pause.json",
+  "r7_lex_owner_report": "logs/dual_owner_790001_seventeenth_verification.json",
+  "r7_lex_accepted_negatives": 23850,
+  "gcd_experiment": "logs/search88_fast_gcd_timeout.json",
+  "cache_file_identity_hits": 276993,
+  "cache_full_content_hashes": 4,
+  "r6_lex_owner_report": "logs/dual_owner_790394_fifteenth_verification.json",
+  "r6_lex_accepted_negatives": 614,
+  "r5_launch": "not_started_no_free_slot",
+  "r5_lex_owner_report": "logs/dual_owner_790479_ninth_verification.json",
+  "r5_lex_accepted_negatives": 5,
+  "r13_single_owner_report": "logs/dual_owner_790487_thirteenth_verification.json",
+  "r13_single_accepted_negatives": 128,
+  "root_benchmark": "logs/root_benchmark_driver.log",
+  "root_benchmark_scope": "diagnostic only; no production evidence",
+  "r13_from_r5_owner_report": "logs/dual_owner_790880_sixth_verification.json",
+  "r13_from_r5_accepted_negatives": 14,
+  "audit_report_sha256": "c62d1d00d2b11a504687be15c1b5bd488fe02171c08802540f86453e75e64f65",
+  "coverage_cache_sha256": "981584b6c531e44be11f49874d5687a6cc7e7bae65b8ea6f6837fc695ffee3c3",
+  "current_owner_acceptance": {
+    "692396": {
+      "r": 13,
+      "report": "logs/exact_owner_692396_second_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          13,
+          68,
+          75,
+          77
+        ],
+        [
+          13,
+          71,
+          75,
+          76
+        ],
+        [
+          13,
+          72,
+          75,
+          77
+        ],
+        [
+          13,
+          70,
+          75,
+          76
+        ],
+        [
+          13,
+          73,
+          75,
+          77
+        ],
+        [
+          13,
+          64,
+          75,
+          76
+        ],
+        [
+          13,
+          67,
+          75,
+          77
+        ],
+        [
+          13,
+          65,
+          75,
+          76
+        ],
+        [
+          13,
+          66,
+          75,
+          76
+        ],
+        [
+          13,
+          70,
+          75,
+          77
+        ],
+        [
+          13,
+          72,
+          75,
+          76
+        ],
+        [
+          13,
+          63,
+          75,
+          77
+        ],
+        [
+          13,
+          71,
+          75,
+          77
+        ],
+        [
+          13,
+          69,
+          75,
+          77
+        ],
+        [
+          13,
+          73,
+          75,
+          76
+        ],
+        [
+          13,
+          67,
+          75,
+          76
+        ]
+      ]
+    },
+    "692397": {
+      "r": 14,
+      "report": "logs/exact_owner_692397_second_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          14,
+          57,
+          73,
+          74
+        ],
+        [
+          14,
+          72,
+          73,
+          74
+        ],
+        [
+          14,
+          70,
+          73,
+          76
+        ],
+        [
+          14,
+          71,
+          73,
+          75
+        ],
+        [
+          14,
+          56,
+          73,
+          74
+        ],
+        [
+          14,
+          71,
+          73,
+          74
+        ],
+        [
+          14,
+          70,
+          73,
+          75
+        ],
+        [
+          14,
+          72,
+          73,
+          76
+        ]
+      ]
+    },
+    "692427": {
+      "r": 12,
+      "report": "logs/exact_owner_692427_second_verification.json",
+      "accepted_negatives": 3,
+      "pending_coordinates": [
+        [
+          12,
+          51,
+          76,
+          77
+        ],
+        [
+          12,
+          55,
+          76,
+          77
+        ],
+        [
+          12,
+          52,
+          76,
+          77
+        ],
+        [
+          12,
+          54,
+          76,
+          77
+        ],
+        [
+          12,
+          54,
+          76,
+          78
+        ],
+        [
+          12,
+          53,
+          76,
+          77
+        ]
+      ]
+    },
+    "692425": {
+      "r": 11,
+      "report": "logs/exact_owner_692425_second_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          11,
+          64,
+          77,
+          79
+        ],
+        [
+          11,
+          65,
+          77,
+          78
+        ],
+        [
+          11,
+          65,
+          77,
+          79
+        ],
+        [
+          11,
+          64,
+          77,
+          78
+        ]
+      ]
+    },
+    "692432": {
+      "r": 4,
+      "report": "logs/exact_owner_692432_resumed_r4_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          4,
+          73,
+          84,
+          85
+        ],
+        [
+          4,
+          77,
+          79,
+          85
+        ],
+        [
+          4,
+          76,
+          83,
+          84
+        ]
+      ]
+    },
+    "692429": {
+      "r": 10,
+      "report": "logs/exact_owner_692429_second_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          10,
+          74,
+          79,
+          80
+        ]
+      ]
+    },
+    "692431": {
+      "r": 9,
+      "report": "logs/exact_owner_692431_second_verification.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": [
+        [
+          9,
+          66,
+          80,
+          81
+        ]
+      ]
+    },
+    "692395": {
+      "r": 15,
+      "report": "logs/exact_owner_692395_third_verification.json",
+      "accepted_negatives": 4,
+      "pending_coordinates": [
+        [
+          15,
+          64,
+          70,
+          71
+        ],
+        [
+          15,
+          65,
+          70,
+          73
+        ],
+        [
+          15,
+          65,
+          70,
+          72
+        ],
+        [
+          15,
+          63,
+          70,
+          73
+        ],
+        [
+          15,
+          64,
+          70,
+          72
+        ],
+        [
+          15,
+          65,
+          70,
+          71
+        ],
+        [
+          15,
+          64,
+          70,
+          73
+        ],
+        [
+          15,
+          65,
+          70,
+          74
+        ]
+      ]
+    },
+    "693528": {
+      "r": 15,
+      "report": "logs/product_max_owner_693528_first_verification.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": [
+        [
+          15,
+          66,
+          70,
+          71
+        ]
+      ]
+    },
+    "693794": {
+      "r": 15,
+      "report": "logs/product_max_owner_693794_twelfth_verification.json",
+      "accepted_negatives": 4116,
+      "pending_coordinates": []
+    },
+    "694127": {
+      "r": 14,
+      "report": "logs/product_max_owner_694127_retired_verification.json",
+      "accepted_negatives": 1958,
+      "pending_coordinates": []
+    },
+    "694449": {
+      "r": 13,
+      "report": "logs/product_max_owner_694449_current200_verification.json",
+      "accepted_negatives": 558,
+      "pending_coordinates": [
+        [
+          13,
+          72,
+          73,
+          74
+        ],
+        [
+          13,
+          71,
+          73,
+          74
+        ],
+        [
+          13,
+          69,
+          73,
+          74
+        ],
+        [
+          13,
+          63,
+          72,
+          76
+        ],
+        [
+          13,
+          64,
+          72,
+          74
+        ],
+        [
+          13,
+          61,
+          72,
+          73
+        ],
+        [
+          13,
+          68,
+          73,
+          74
+        ],
+        [
+          13,
+          57,
+          72,
+          73
+        ],
+        [
+          13,
+          57,
+          72,
+          75
+        ],
+        [
+          13,
+          59,
+          72,
+          73
+        ],
+        [
+          13,
+          70,
+          73,
+          74
+        ],
+        [
+          13,
+          67,
+          73,
+          74
+        ],
+        [
+          13,
+          57,
+          72,
+          74
+        ],
+        [
+          13,
+          64,
+          72,
+          76
+        ],
+        [
+          13,
+          74,
+          75,
+          76
+        ],
+        [
+          13,
+          59,
+          72,
+          74
+        ]
+      ]
+    },
+    "694913": {
+      "r": 12,
+      "report": "logs/product_max_owner_694913_current200_verification.json",
+      "accepted_negatives": 145,
+      "pending_coordinates": [
+        [
+          12,
+          72,
+          76,
+          77
+        ],
+        [
+          12,
+          62,
+          75,
+          76
+        ],
+        [
+          12,
+          70,
+          76,
+          77
+        ],
+        [
+          12,
+          69,
+          76,
+          77
+        ],
+        [
+          12,
+          56,
+          75,
+          76
+        ],
+        [
+          12,
+          61,
+          75,
+          76
+        ]
+      ]
+    },
+    "694920": {
+      "r": 11,
+      "report": "logs/product_max_owner_694920_current200_verification.json",
+      "accepted_negatives": 62,
+      "pending_coordinates": [
+        [
+          11,
+          46,
+          76,
+          77
+        ],
+        [
+          11,
+          72,
+          77,
+          78
+        ],
+        [
+          11,
+          74,
+          77,
+          78
+        ],
+        [
+          11,
+          73,
+          77,
+          78
+        ]
+      ]
+    },
+    "694915": {
+      "r": 4,
+      "report": "logs/product_max_owner_694915_r4_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          4,
+          76,
+          81,
+          85
+        ],
+        [
+          4,
+          76,
+          82,
+          83
+        ],
+        [
+          4,
+          76,
+          81,
+          84
+        ]
+      ]
+    },
+    "694914": {
+      "r": 10,
+      "report": "logs/product_max_owner_694914_after_two_splits_verification.json",
+      "accepted_negatives": 2,
+      "pending_coordinates": [
+        [
+          10,
+          77,
+          79,
+          80
+        ]
+      ]
+    },
+    "694919": {
+      "r": 9,
+      "report": "logs/product_max_owner_694919_after_two_splits_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          9,
+          68,
+          80,
+          81
+        ]
+      ]
+    },
+    "695746": {
+      "r": 13,
+      "report": "logs/product_max_owner_695746_after_two_splits_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          13,
+          70,
+          74,
+          75
+        ]
+      ]
+    },
+    "695971": {
+      "r": 15,
+      "report": "logs/product_max_owner_695971_third_verification.json",
+      "accepted_negatives": 9,
+      "pending_coordinates": []
+    },
+    "696057": {
+      "r": 14,
+      "report": "logs/product_max_owner_696057_retired_verification.json",
+      "accepted_negatives": 1449,
+      "pending_coordinates": []
+    },
+    "698437": {
+      "r": 14,
+      "report": "logs/product_max_owner_698437_completed_verification.json",
+      "accepted_negatives": 502,
+      "pending_coordinates": []
+    },
+    "695673": {
+      "r": 13,
+      "report": "logs/split13_first4_server.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "696169": {
+      "r": 14,
+      "report": "logs/split14_first4.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "696208": {
+      "r": 14,
+      "report": "logs/split14_second4.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "696384": {
+      "r": 13,
+      "report": "logs/split13_second4.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "696480": {
+      "r": 13,
+      "report": "logs/split13_third4.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "696336": {
+      "r": 14,
+      "report": "logs/split14_third4.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "696553": {
+      "r": 13,
+      "report": "logs/split13_fourth4.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "697696": {
+      "r": 13,
+      "report": "logs/split13_weighted4.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "697693": {
+      "r": 14,
+      "report": "logs/split14_weighted4.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "698282": {
+      "r": 14,
+      "report": "logs/split14_weighted4_second.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "698279": {
+      "r": 13,
+      "report": "logs/split13_weighted4_second.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "698782": {
+      "r": 14,
+      "report": "logs/split14_weighted4_third.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "698852": {
+      "r": 13,
+      "report": "logs/split13_weighted4_third.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "699045": {
+      "r": 14,
+      "report": "logs/split14_weighted4_fourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "700858": {
+      "r": 14,
+      "report": "logs/split14_nested7_first.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "701322": {
+      "r": 14,
+      "report": "logs/split14_nested7_second.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "701475": {
+      "r": 14,
+      "report": "logs/split14_nested7_third.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "701710": {
+      "r": 14,
+      "report": "logs/split14_nested7_fourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "702324": {
+      "r": 14,
+      "report": "logs/split14_nested7_fifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "702385": {
+      "r": 14,
+      "report": "logs/split14_nested7_sixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "702467": {
+      "r": 14,
+      "report": "logs/split14_nested7_seventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "702557": {
+      "r": 14,
+      "report": "logs/split14_nested7_eighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "702630": {
+      "r": 14,
+      "report": "logs/split14_nested7_ninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "702809": {
+      "r": 14,
+      "report": "logs/split14_nested7_tenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "703004": {
+      "r": 14,
+      "report": "logs/split14_nested7_eleventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "703130": {
+      "r": 14,
+      "report": "logs/split14_nested7_twelfth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "703218": {
+      "r": 14,
+      "report": "logs/split14_nested7_thirteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "703410": {
+      "r": 14,
+      "report": "logs/split14_nested7_fourteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "703696": {
+      "r": 14,
+      "report": "logs/split14_nested7_fifteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "703885": {
+      "r": 14,
+      "report": "logs/split14_nested7_sixteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "704290": {
+      "r": 14,
+      "report": "logs/split14_nested7_seventeenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "704734": {
+      "r": 14,
+      "report": "logs/split14_nested7_eighteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "704890": {
+      "r": 14,
+      "report": "logs/split14_nested7_nineteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "705534": {
+      "r": 14,
+      "report": "logs/split14_nested7_twentieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "705686": {
+      "r": 14,
+      "report": "logs/split14_nested7_twentyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "706796": {
+      "r": 14,
+      "report": "logs/split14_nested7_twentysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "706723": {
+      "r": 14,
+      "report": "logs/split14_nested10_first.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "706948": {
+      "r": 14,
+      "report": "logs/split14_nested10_second.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "707106": {
+      "r": 14,
+      "report": "logs/split14_nested10_third.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "707280": {
+      "r": 14,
+      "report": "logs/split14_nested10_fourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "707308": {
+      "r": 14,
+      "report": "logs/split14_nested10_fifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "707675": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "708076": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "708240": {
+      "r": 14,
+      "report": "logs/split14_nested10_eighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "708397": {
+      "r": 14,
+      "report": "logs/split14_nested10_ninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "708554": {
+      "r": 14,
+      "report": "logs/split14_nested10_tenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "708557": {
+      "r": 14,
+      "report": "logs/split14_nested10_eleventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "708716": {
+      "r": 14,
+      "report": "logs/split14_nested10_twelfth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "708719": {
+      "r": 14,
+      "report": "logs/split14_nested10_thirteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "708932": {
+      "r": 14,
+      "report": "logs/split14_nested10_fourteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "708935": {
+      "r": 14,
+      "report": "logs/split14_nested10_fifteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709100": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709103": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventeenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709267": {
+      "r": 14,
+      "report": "logs/split14_nested10_eighteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709270": {
+      "r": 14,
+      "report": "logs/split14_nested10_nineteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709445": {
+      "r": 14,
+      "report": "logs/split14_nested10_twentieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709448": {
+      "r": 14,
+      "report": "logs/split14_nested10_twentyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709618": {
+      "r": 14,
+      "report": "logs/split14_nested10_twentysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709621": {
+      "r": 14,
+      "report": "logs/split14_nested10_twentythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709762": {
+      "r": 14,
+      "report": "logs/split14_nested10_twentyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709803": {
+      "r": 14,
+      "report": "logs/split14_nested10_twentyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709989": {
+      "r": 14,
+      "report": "logs/split14_nested10_twentysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "709992": {
+      "r": 14,
+      "report": "logs/split14_nested10_twentyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "710167": {
+      "r": 14,
+      "report": "logs/split14_nested10_twentyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "710170": {
+      "r": 14,
+      "report": "logs/split14_nested10_twentyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "710358": {
+      "r": 14,
+      "report": "logs/split14_nested10_thirtieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "710363": {
+      "r": 14,
+      "report": "logs/split14_nested10_thirtyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "710559": {
+      "r": 14,
+      "report": "logs/split14_nested10_thirtysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "710564": {
+      "r": 14,
+      "report": "logs/split14_nested10_thirtythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "710759": {
+      "r": 14,
+      "report": "logs/split14_nested10_thirtyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "710937": {
+      "r": 14,
+      "report": "logs/split14_nested10_thirtyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "710942": {
+      "r": 14,
+      "report": "logs/split14_nested10_thirtysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "711147": {
+      "r": 14,
+      "report": "logs/split14_nested10_thirtyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "711150": {
+      "r": 14,
+      "report": "logs/split14_nested10_thirtyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "711492": {
+      "r": 14,
+      "report": "logs/split14_nested10_thirtyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "711671": {
+      "r": 14,
+      "report": "logs/split14_nested10_fortieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "711674": {
+      "r": 14,
+      "report": "logs/split14_nested10_fortyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "711878": {
+      "r": 14,
+      "report": "logs/split14_nested10_fortythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "712411": {
+      "r": 14,
+      "report": "logs/split14_nested10_fortyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "712605": {
+      "r": 14,
+      "report": "logs/split14_nested10_fortyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "712610": {
+      "r": 14,
+      "report": "logs/split14_nested10_fortysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "712997": {
+      "r": 14,
+      "report": "logs/split14_nested10_fortyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "713180": {
+      "r": 14,
+      "report": "logs/split14_nested10_fortyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "713365": {
+      "r": 14,
+      "report": "logs/split14_nested10_fortyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "713368": {
+      "r": 14,
+      "report": "logs/split14_nested10_fiftieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "700912": {
+      "r": 13,
+      "report": "logs/split13_nested7_first.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "704287": {
+      "r": 13,
+      "report": "logs/split13_nested7_second.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "704564": {
+      "r": 13,
+      "report": "logs/split13_nested7_third.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "710368": {
+      "r": 13,
+      "report": "logs/split13_nested7_fourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "699441": {
+      "r": 12,
+      "report": "logs/split12_weighted4.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "704737": {
+      "r": 12,
+      "report": "logs/split12_nested7_first.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "705539": {
+      "r": 12,
+      "report": "logs/split12_nested7_second.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "711677": {
+      "r": 12,
+      "report": "logs/split12_nested7_third.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "711881": {
+      "r": 12,
+      "report": "logs/split12_nested7_fourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "712058": {
+      "r": 12,
+      "report": "logs/split12_nested7_fifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "712391": {
+      "r": 12,
+      "report": "logs/split12_nested7_sixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "712615": {
+      "r": 12,
+      "report": "logs/split12_nested7_seventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "712822": {
+      "r": 12,
+      "report": "logs/split12_nested7_eighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "713000": {
+      "r": 12,
+      "report": "logs/split12_nested7_ninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "713526": {
+      "r": 12,
+      "report": "logs/split12_nested7_tenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "713831": {
+      "r": 12,
+      "report": "logs/split12_nested7_eleventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "701807": {
+      "r": 11,
+      "report": "logs/split11_nested7_first.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "702812": {
+      "r": 11,
+      "report": "logs/split11_nested7_second.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "703837": {
+      "r": 11,
+      "report": "logs/split11_nested7_third.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "710948": {
+      "r": 11,
+      "report": "logs/split11_nested7_fourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "701914": {
+      "r": 10,
+      "report": "logs/product_max_owner_701914_resumed_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          10,
+          78,
+          79,
+          80
+        ]
+      ]
+    },
+    "702349": {
+      "r": 4,
+      "report": "logs/product_max_owner_702349_resumed_r4_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          4,
+          76,
+          82,
+          84
+        ]
+      ]
+    },
+    "702394": {
+      "r": 9,
+      "report": "logs/product_max_owner_702394_nested14_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          9,
+          70,
+          80,
+          81
+        ]
+      ]
+    },
+    "702442": {
+      "r": 10,
+      "report": "logs/product_max_owner_702442_current200_verification.json",
+      "accepted_negatives": 81,
+      "pending_coordinates": [
+        [
+          10,
+          63,
+          78,
+          79
+        ]
+      ]
+    },
+    "702476": {
+      "r": 13,
+      "report": "logs/product_max_owner_702476_cap_paused_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          13,
+          64,
+          73,
+          76
+        ]
+      ]
+    },
+    "702508": {
+      "r": 6,
+      "report": "logs/product_max_owner_702508_r10_boost_paused_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          6,
+          79,
+          82,
+          83
+        ]
+      ]
+    },
+    "702550": {
+      "r": 7,
+      "report": "logs/product_max_owner_702550_r10_boost_paused_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          7,
+          53,
+          81,
+          82
+        ]
+      ]
+    },
+    "702579": {
+      "r": 8,
+      "report": "logs/product_max_owner_702579_r10_boost_paused_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          8,
+          59,
+          81,
+          82
+        ]
+      ]
+    },
+    "703773": {
+      "r": 10,
+      "report": "logs/product_max_owner_703773_resumed_verification.json",
+      "accepted_negatives": 5,
+      "pending_coordinates": [
+        [
+          10,
+          54,
+          78,
+          79
+        ],
+        [
+          10,
+          53,
+          78,
+          79
+        ],
+        [
+          10,
+          52,
+          78,
+          79
+        ]
+      ]
+    },
+    "703873": {
+      "r": 10,
+      "report": "logs/product_max_owner_703873_resumed_verification.json",
+      "accepted_negatives": 2,
+      "pending_coordinates": [
+        [
+          10,
+          51,
+          78,
+          79
+        ]
+      ]
+    },
+    "714621": {
+      "r": 14,
+      "report": "logs/split14_nested10_fiftysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "714035": {
+      "r": 12,
+      "report": "logs/split12_nested7_twelfth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "714950": {
+      "r": 14,
+      "report": "logs/split14_nested10_fiftythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "714953": {
+      "r": 12,
+      "report": "logs/split12_nested7_thirteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715159": {
+      "r": 14,
+      "report": "logs/split14_nested10_fiftyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715300": {
+      "r": 14,
+      "report": "logs/split14_nested10_fiftyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "714225": {
+      "r": 14,
+      "report": "logs/split14_nested10_fiftyfirst_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715162": {
+      "r": 12,
+      "report": "logs/split12_nested7_fourteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715510": {
+      "r": 14,
+      "report": "logs/split14_nested10_fiftysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715661": {
+      "r": 14,
+      "report": "logs/split14_nested10_fiftyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715771": {
+      "r": 14,
+      "report": "logs/split14_nested10_fiftyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715515": {
+      "r": 14,
+      "report": "logs/split14_nested10_fiftyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715641": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixtieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715850": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixtyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715700": {
+      "r": 12,
+      "report": "logs/split12_nested7_fifteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "716185": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixtysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "716287": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixtythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "716813": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixtyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "716190": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixtyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "716306": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixtysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "716697": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixtyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "716900": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixtyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "717082": {
+      "r": 14,
+      "report": "logs/split14_nested10_sixtyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "718099": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "717347": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "717658": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "717754": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "718002": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "718724": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "719257": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "719186": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "719375": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "720713": {
+      "r": 14,
+      "report": "logs/split14_nested10_seventyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "719566": {
+      "r": 14,
+      "report": "logs/split14_nested10_eightieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715819": {
+      "r": 12,
+      "report": "logs/split12_nested7_sixteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "717396": {
+      "r": 12,
+      "report": "logs/split12_nested7_seventeenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "718005": {
+      "r": 12,
+      "report": "logs/split12_nested7_eighteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "714040": {
+      "r": 13,
+      "report": "logs/split13_nested7_fifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "716193": {
+      "r": 13,
+      "report": "logs/split13_nested7_seventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "719189": {
+      "r": 13,
+      "report": "logs/split13_nested7_eighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "719569": {
+      "r": 13,
+      "report": "logs/split13_nested7_ninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "720182": {
+      "r": 13,
+      "report": "logs/split13_nested7_tenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "720270": {
+      "r": 13,
+      "report": "logs/split13_nested7_eleventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "720324": {
+      "r": 13,
+      "report": "logs/split13_nested7_twelfth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "720745": {
+      "r": 13,
+      "report": "logs/split13_nested7_thirteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "720748": {
+      "r": 13,
+      "report": "logs/split13_nested7_fourteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "720997": {
+      "r": 13,
+      "report": "logs/split13_nested7_sixteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "720882": {
+      "r": 14,
+      "report": "logs/split14_nested10_eightyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "720989": {
+      "r": 14,
+      "report": "logs/split14_nested10_eightythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "718749": {
+      "r": 12,
+      "report": "logs/split12_nested7_nineteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "722196": {
+      "r": 12,
+      "report": "logs/split12_nested7_twentieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "722036": {
+      "r": 13,
+      "report": "logs/split13_nested7_seventeenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "722040": {
+      "r": 13,
+      "report": "logs/split13_nested7_eighteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "722614": {
+      "r": 13,
+      "report": "logs/split13_nested7_nineteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "712224": {
+      "r": 11,
+      "report": "logs/split11_nested7_fifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "722377": {
+      "r": 14,
+      "report": "logs/split14_nested10_eightysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "722350": {
+      "r": 14,
+      "report": "logs/split14_nested10_eightyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724150": {
+      "r": 14,
+      "report": "logs/split14_nested10_eightyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "722751": {
+      "r": 13,
+      "report": "logs/split13_nested7_twentieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "722810": {
+      "r": 13,
+      "report": "logs/split13_nested7_twentyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "723416": {
+      "r": 13,
+      "report": "logs/split13_nested7_twentysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "723571": {
+      "r": 13,
+      "report": "logs/split13_nested7_twentythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "722272": {
+      "r": 11,
+      "report": "logs/split11_nested7_sixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724894": {
+      "r": 14,
+      "report": "logs/split14_nested10_ninetysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "726067": {
+      "r": 14,
+      "report": "logs/split14_nested10_ninetythird_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724897": {
+      "r": 14,
+      "report": "logs/split14_nested10_ninetyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "726070": {
+      "r": 14,
+      "report": "logs/split14_nested10_ninetysixth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724900": {
+      "r": 13,
+      "report": "logs/split13_nested10_twentyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724314": {
+      "r": 13,
+      "report": "logs/split13_nested10_twentysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "726064": {
+      "r": 13,
+      "report": "logs/split13_nested10_twentyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724099": {
+      "r": 13,
+      "report": "logs/split13_nested7_twentyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "726073": {
+      "r": 11,
+      "report": "logs/split11_nested10_eighth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "727572": {
+      "r": 14,
+      "report": "logs/split14_nested10_ninetyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "727575": {
+      "r": 14,
+      "report": "logs/split14_nested10_ninetyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "727569": {
+      "r": 13,
+      "report": "logs/split13_nested10_thirtyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "727578": {
+      "r": 11,
+      "report": "logs/split11_nested10_ninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "727734": {
+      "r": 11,
+      "report": "logs/split11_nested10_tenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "722618": {
+      "r": 12,
+      "report": "logs/split12_nested7_twentyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "726733": {
+      "r": 12,
+      "report": "logs/split12_nested7_twentysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728095": {
+      "r": 14,
+      "report": "logs/split14_nested10_ninetyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728098": {
+      "r": 14,
+      "report": "logs/split14_nested10_ninetyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728092": {
+      "r": 11,
+      "report": "logs/split11_nested10_eleventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728286": {
+      "r": 11,
+      "report": "logs/split11_nested10_twelfth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728743": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728748": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728111": {
+      "r": 13,
+      "report": "logs/split13_nested10_thirtyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728738": {
+      "r": 11,
+      "report": "logs/split11_nested10_thirteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728852": {
+      "r": 11,
+      "report": "logs/split11_nested10_fourteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728974": {
+      "r": 11,
+      "report": "logs/split11_nested10_fifteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728977": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728982": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "729739": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "729778": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "729164": {
+      "r": 11,
+      "report": "logs/split11_nested10_sixteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "729445": {
+      "r": 11,
+      "report": "logs/split11_nested10_seventeenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "729653": {
+      "r": 11,
+      "report": "logs/split11_nested10_eighteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "729775": {
+      "r": 11,
+      "report": "logs/split11_nested10_nineteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "729865": {
+      "r": 11,
+      "report": "logs/split11_nested10_twentieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "730078": {
+      "r": 11,
+      "report": "logs/split11_nested10_twentyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728106": {
+      "r": 13,
+      "report": "logs/split13_nested10_thirtythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "730615": {
+      "r": 13,
+      "report": "logs/split13_nested10_thirtysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "730492": {
+      "r": 11,
+      "report": "logs/split11_nested10_twentysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "730654": {
+      "r": 11,
+      "report": "logs/split11_nested10_twentythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "730716": {
+      "r": 11,
+      "report": "logs/split11_nested10_twentyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "730201": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "730082": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "731095": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "731206": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "729441": {
+      "r": 13,
+      "report": "logs/split13_nested10_thirtyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "731085": {
+      "r": 11,
+      "report": "logs/split11_nested10_twentyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "731322": {
+      "r": 11,
+      "report": "logs/split11_nested10_twentysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "731414": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "731421": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeleventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "732304": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtwelfth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "732063": {
+      "r": 13,
+      "report": "logs/split13_nested10_thirtyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "731679": {
+      "r": 11,
+      "report": "logs/split11_nested10_twentyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "731751": {
+      "r": 11,
+      "report": "logs/split11_nested10_twentyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "726921": {
+      "r": 12,
+      "report": "logs/split12_nested7_twentythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "732844": {
+      "r": 13,
+      "report": "logs/split13_nested10_fortieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "732849": {
+      "r": 11,
+      "report": "logs/split11_nested10_thirtieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "732954": {
+      "r": 11,
+      "report": "logs/split11_nested10_thirtyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "733033": {
+      "r": 11,
+      "report": "logs/split11_nested10_thirtysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "733266": {
+      "r": 11,
+      "report": "logs/split11_nested10_thirtythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "733404": {
+      "r": 11,
+      "report": "logs/split11_nested10_thirtyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "732584": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfourteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "733834": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfifteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "733837": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734031": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventeenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734102": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeighteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734167": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundrednineteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "733831": {
+      "r": 11,
+      "report": "logs/split11_nested10_thirtyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734038": {
+      "r": 11,
+      "report": "logs/split11_nested10_thirtysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "732206": {
+      "r": 12,
+      "report": "logs/split12_nested10_twentyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734509": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtwentyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734512": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtwentysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734671": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtwentythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734674": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtwentyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "731089": {
+      "r": 13,
+      "report": "logs/split13_nested10_thirtyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734583": {
+      "r": 11,
+      "report": "logs/split11_nested10_thirtyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734900": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtwentyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734903": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtwentysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "735158": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtwentyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734906": {
+      "r": 11,
+      "report": "logs/split11_nested10_thirtyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "736373": {
+      "r": 13,
+      "report": "logs/product_max_owner_736373_current520_verification.json",
+      "accepted_negatives": 19,
+      "pending_coordinates": []
+    },
+    "735659": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtwentyninth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "735662": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthirtieth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "735665": {
+      "r": 11,
+      "report": "logs/split11_nested10_fortyfirst_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734613": {
+      "r": 13,
+      "report": "logs/split13_nested10_fortysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "735596": {
+      "r": 12,
+      "report": "logs/split12_nested10_twentysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "736559": {
+      "r": 14,
+      "report": "logs/product_max_owner_736559_current460_verification.json",
+      "accepted_negatives": 1254,
+      "pending_coordinates": [
+        [
+          14,
+          56,
+          64,
+          69
+        ],
+        [
+          14,
+          62,
+          65,
+          67
+        ],
+        [
+          14,
+          57,
+          64,
+          68
+        ]
+      ]
+    },
+    "736431": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthirtyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "736436": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthirtysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "736687": {
+      "r": 11,
+      "report": "logs/split11_nested10_fortythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "733178": {
+      "r": 13,
+      "report": "logs/split13_nested10_fortyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "737417": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthirtythird_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "737420": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthirtyfourth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "737704": {
+      "r": 11,
+      "report": "logs/split11_nested10_fortyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "741063": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfortyfirst_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "741066": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfortysecond_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "741322": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfortyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "741318": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfortythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "742181": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfortyfifth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "741677": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfortysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "742184": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfortyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "741069": {
+      "r": 11,
+      "report": "logs/split11_nested10_fortyninth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "742880": {
+      "r": 12,
+      "report": "logs/product_max_owner_742880_current500_verification.json",
+      "accepted_negatives": 15,
+      "pending_coordinates": [
+        [
+          12,
+          72,
+          75,
+          77
+        ],
+        [
+          12,
+          66,
+          75,
+          76
+        ],
+        [
+          12,
+          69,
+          75,
+          76
+        ],
+        [
+          12,
+          65,
+          75,
+          76
+        ],
+        [
+          12,
+          68,
+          75,
+          76
+        ],
+        [
+          12,
+          72,
+          75,
+          78
+        ],
+        [
+          12,
+          71,
+          75,
+          77
+        ],
+        [
+          12,
+          73,
+          75,
+          76
+        ]
+      ]
+    },
+    "742769": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfortyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "742774": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfortyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "742187": {
+      "r": 11,
+      "report": "logs/split11_nested10_fiftieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "742778": {
+      "r": 11,
+      "report": "logs/split11_nested10_fiftyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "735155": {
+      "r": 11,
+      "report": "logs/split11_nested10_fortieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "711875": {
+      "r": 14,
+      "report": "logs/split14_nested10_fortysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "743377": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfiftieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "739197": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthirtyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "738017": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthirtysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "736351": {
+      "r": 13,
+      "report": "logs/split13_nested10_fortythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734250": {
+      "r": 11,
+      "report": "logs/split11_nested10_thirtyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "738625": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthirtyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "734247": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtwentieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "737423": {
+      "r": 13,
+      "report": "logs/split13_nested10_fortyfifth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "739200": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfortieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "739194": {
+      "r": 11,
+      "report": "logs/split11_nested10_fortyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724647": {
+      "r": 14,
+      "report": "logs/split14_nested10_ninetyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "735162": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredtwentyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "731092": {
+      "r": 13,
+      "report": "logs/split13_nested10_thirtyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "736354": {
+      "r": 12,
+      "report": "logs/split12_nested10_twentyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "733840": {
+      "r": 12,
+      "report": "logs/split12_nested10_twentyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724518": {
+      "r": 14,
+      "report": "logs/split14_nested10_eightyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724573": {
+      "r": 11,
+      "report": "logs/split11_nested10_seventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "732502": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthirteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724576": {
+      "r": 14,
+      "report": "logs/split14_nested10_eightyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "738629": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthirtyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "727566": {
+      "r": 13,
+      "report": "logs/split13_nested10_thirtieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "720994": {
+      "r": 13,
+      "report": "logs/split13_nested7_fifteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "743380": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfiftysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "715775": {
+      "r": 13,
+      "report": "logs/split13_nested7_sixth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724102": {
+      "r": 14,
+      "report": "logs/split14_nested10_eightysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724619": {
+      "r": 14,
+      "report": "logs/split14_nested10_ninetieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "743105": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfiftyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "725846": {
+      "r": 13,
+      "report": "logs/split13_nested10_twentyeighth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "736441": {
+      "r": 11,
+      "report": "logs/split11_nested10_fortysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "737426": {
+      "r": 11,
+      "report": "logs/split11_nested10_fortyfourth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "724442": {
+      "r": 14,
+      "report": "logs/split14_nested10_eightyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "738696": {
+      "r": 11,
+      "report": "logs/split11_nested10_fortyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "732586": {
+      "r": 11,
+      "report": "logs/split11_nested10_twentyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "728101": {
+      "r": 13,
+      "report": "logs/split13_nested10_thirtysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "738014": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredthirtyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "738011": {
+      "r": 11,
+      "report": "logs/split11_nested10_fortysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "744619": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfiftyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "744615": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfiftyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "744230": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfiftythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "745556": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixtieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "744233": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfiftyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "745976": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixtysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "745553": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfiftyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "744418": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfiftysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "744415": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredfiftyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "745973": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixtyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "744335": {
+      "r": 11,
+      "report": "logs/split11_nested10_fiftythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "743014": {
+      "r": 11,
+      "report": "logs/split11_nested10_fiftysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "747281": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixtyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "746917": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixtythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "746920": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixtyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "747276": {
+      "r": 11,
+      "report": "logs/split11_nested10_fiftyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "745546": {
+      "r": 11,
+      "report": "logs/split11_nested10_fiftyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "748161": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "748058": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixtyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "747741": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixtyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "747676": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixtysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "748158": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "747997": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredsixtyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "748547": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "736682": {
+      "r": 13,
+      "report": "logs/split13_nested10_fortyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "749533": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeightieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "748794": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "749046": {
+      "r": 13,
+      "report": "logs/split13_nested10_fortyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "749039": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "749042": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "749530": {
+      "r": 11,
+      "report": "logs/split11_nested10_fiftyseventh_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "749527": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventyeighth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "747498": {
+      "r": 11,
+      "report": "logs/split11_nested10_fiftysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "750126": {
+      "r": 11,
+      "report": "logs/split11_nested10_fiftyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "748550": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "749987": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeightyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "749990": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeightysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "748789": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "749302": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredseventyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "748817": {
+      "r": 10,
+      "report": "logs/product_max_owner_748817_initial_verification.json",
+      "accepted_negatives": 2,
+      "pending_coordinates": [
+        [
+          10,
+          66,
+          78,
+          79
+        ],
+        [
+          10,
+          67,
+          78,
+          80
+        ],
+        [
+          10,
+          67,
+          78,
+          79
+        ],
+        [
+          10,
+          68,
+          78,
+          79
+        ]
+      ]
+    },
+    "751748": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredninetyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "751252": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredninetieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "750911": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeightyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "750179": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeightyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "750586": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeightysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "751249": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeightyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "750658": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeightyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "750468": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeightyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "750176": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredeightythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "750333": {
+      "r": 11,
+      "report": "logs/split11_nested10_fiftyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "752623": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredninetyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "752380": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredninetysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "752264": {
+      "r": 13,
+      "report": "logs/split13_nested10_fiftieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "753251": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "753555": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredsecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "752609": {
+      "r": 11,
+      "report": "logs/split11_nested10_sixtieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "752619": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredninetyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "752105": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredninetythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "751962": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredninetysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "753617": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "752422": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredninetyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "753441": {
+      "r": 11,
+      "report": "logs/split11_nested10_sixtyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "752159": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredninetyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "737701": {
+      "r": 13,
+      "report": "logs/split13_nested10_fortysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "753248": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "752268": {
+      "r": 14,
+      "report": "logs/split14_nested10_hundredninetyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "752296": {
+      "r": 10,
+      "report": "logs/product_max_owner_752296_initial_verification.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": [
+        [
+          10,
+          69,
+          78,
+          79
+        ],
+        [
+          10,
+          69,
+          78,
+          80
+        ]
+      ]
+    },
+    "754781": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "754966": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredeleventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "755422": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfourteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "754303": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredsixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "754047": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "755148": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtenth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "755248": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthirteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "755427": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfifteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "754308": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "744236": {
+      "r": 12,
+      "report": "logs/split12_nested10_twentyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "754784": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "754050": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "744421": {
+      "r": 13,
+      "report": "logs/split13_nested10_fortyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "755245": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtwelfth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "755681": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredsixteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "756070": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtwentieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "755684": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredseventeenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "755887": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredeighteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "756073": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtwentyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "755892": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundrednineteenth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "756401": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtwentythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "756398": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtwentysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "753877": {
+      "r": 11,
+      "report": "logs/split11_nested10_sixtysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "756550": {
+      "r": 11,
+      "report": "logs/split11_nested10_sixtythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "756817": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtwentyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "757155": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtwentysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "757440": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthirtieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "757149": {
+      "r": 11,
+      "report": "logs/split11_nested10_sixtyfourth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "757842": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthirtysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758370": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthirtyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "757297": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtwentyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "757399": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtwentyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "757699": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthirtyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "757152": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtwentyfifth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "757261": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredtwentyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758363": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthirtyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "757965": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthirtythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758815": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfortyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758812": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfortieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758479": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthirtyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758373": {
+      "r": 11,
+      "report": "logs/split11_nested10_sixtyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758955": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfortysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758653": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthirtyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758656": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthirtyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758476": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredthirtysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758958": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfortythird.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "759429": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfortyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "759334": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfortysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "759096": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfortyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "759093": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfortyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "759434": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfortyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "759337": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfortyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "759200": {
+      "r": 5,
+      "report": "logs/product_max_owner_759200_current460_verification.json",
+      "accepted_negatives": 4,
+      "pending_coordinates": [
+        [
+          5,
+          77,
+          78,
+          81
+        ],
+        [
+          5,
+          80,
+          81,
+          83
+        ],
+        [
+          5,
+          77,
+          78,
+          84
+        ],
+        [
+          5,
+          61,
+          75,
+          77
+        ]
+      ]
+    },
+    "760033": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfiftythird_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "754777": {
+      "r": 13,
+      "report": "logs/split13_nested10_fiftysecond_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "760156": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfiftyfourth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "760030": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfiftysecond_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "759633": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfiftieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "760159": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfiftyfifth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "759636": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfiftyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "760285": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfiftysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "760290": {
+      "r": 14,
+      "report": "logs/split14_nested10_twohundredfiftyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "750089": {
+      "r": 13,
+      "report": "logs/split13_nested10_fortyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "758724": {
+      "r": 11,
+      "report": "logs/split11_nested10_sixtysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "761238": {
+      "r": 13,
+      "report": "logs/split13_nested10_fiftyfourth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "762394": {
+      "r": 11,
+      "report": "logs/split11_nested10_sixtyseventh.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "764093": {
+      "r": 11,
+      "report": "logs/split11_nested10_sixtyeighth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "760027": {
+      "r": 13,
+      "report": "logs/split13_nested10_fiftythird_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "766502": {
+      "r": 14,
+      "report": "logs/removed_fourth_56_64_69_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "767452": {
+      "r": 14,
+      "report": "logs/removed_fourth_57_64_68.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "764400": {
+      "r": 11,
+      "report": "logs/split11_nested10_sixtyninth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "767743": {
+      "r": 14,
+      "report": "logs/removed_fourth_62_65_67.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "768892": {
+      "r": 11,
+      "report": "logs/split11_nested10_seventyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "768121": {
+      "r": 11,
+      "report": "logs/split11_nested10_seventieth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "769872": {
+      "r": 14,
+      "report": "logs/product_max_owner_769872_third_verification.json",
+      "accepted_negatives": 3,
+      "pending_coordinates": [
+        [
+          14,
+          61,
+          63,
+          65
+        ]
+      ]
+    },
+    "769959": {
+      "r": 6,
+      "report": "logs/product_max_owner_769959_seventh_verification.json",
+      "accepted_negatives": 57,
+      "pending_coordinates": [
+        [
+          6,
+          63,
+          81,
+          84
+        ],
+        [
+          6,
+          81,
+          82,
+          84
+        ],
+        [
+          6,
+          63,
+          81,
+          82
+        ],
+        [
+          6,
+          59,
+          81,
+          83
+        ],
+        [
+          6,
+          62,
+          81,
+          82
+        ],
+        [
+          6,
+          81,
+          82,
+          83
+        ],
+        [
+          6,
+          80,
+          82,
+          84
+        ],
+        [
+          6,
+          64,
+          81,
+          83
+        ]
+      ]
+    },
+    "770100": {
+      "r": 7,
+      "report": "logs/product_max_owner_770100_second_verification.json",
+      "accepted_negatives": 3,
+      "pending_coordinates": [
+        [
+          7,
+          56,
+          81,
+          82
+        ],
+        [
+          7,
+          74,
+          82,
+          83
+        ],
+        [
+          7,
+          76,
+          82,
+          83
+        ],
+        [
+          7,
+          77,
+          82,
+          83
+        ]
+      ]
+    },
+    "770607": {
+      "r": 14,
+      "report": "logs/removed_fourth_14_61_63_65.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "770440": {
+      "r": 8,
+      "report": "logs/product_max_owner_770440_initial_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          8,
+          60,
+          81,
+          82
+        ],
+        [
+          8,
+          61,
+          81,
+          82
+        ]
+      ]
+    },
+    "770702": {
+      "r": 12,
+      "report": "logs/product_max_owner_770702_fourth_verification.json",
+      "accepted_negatives": 15,
+      "pending_coordinates": [
+        [
+          12,
+          53,
+          74,
+          75
+        ],
+        [
+          12,
+          74,
+          75,
+          77
+        ],
+        [
+          12,
+          52,
+          74,
+          76
+        ],
+        [
+          12,
+          74,
+          75,
+          76
+        ]
+      ]
+    },
+    "766703": {
+      "r": 13,
+      "report": "logs/split13_nested10_fiftysixth.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "771590": {
+      "r": 13,
+      "report": "logs/product_max_owner_771590_seventh_verification.json",
+      "accepted_negatives": 5,
+      "pending_coordinates": []
+    },
+    "771582": {
+      "r": 14,
+      "report": "logs/product_max_owner_771582_completed_verification.json",
+      "accepted_negatives": 7,
+      "pending_coordinates": []
+    },
+    "769070": {
+      "r": 11,
+      "report": "logs/split11_nested10_seventysecond.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "752614": {
+      "r": 13,
+      "report": "logs/split13_nested10_fiftyfirst.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "772450": {
+      "r": 11,
+      "report": "logs/product_max_owner_772450_initial_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          11,
+          54,
+          76,
+          78
+        ],
+        [
+          11,
+          55,
+          76,
+          77
+        ],
+        [
+          11,
+          64,
+          77,
+          78
+        ]
+      ]
+    },
+    "763415": {
+      "r": 13,
+      "report": "logs/split13_nested10_fiftyfifth_retry.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "775565": {
+      "r": 14,
+      "report": "logs/product_max_owner_775565_completed_verification.json",
+      "accepted_negatives": 5,
+      "pending_coordinates": []
+    },
+    "775577": {
+      "r": 13,
+      "report": "logs/product_max_owner_775577_fifth_verification.json",
+      "accepted_negatives": 1750,
+      "pending_coordinates": []
+    },
+    "778256": {
+      "r": 6,
+      "report": "logs/product_max_owner_778256_initial_verification.json",
+      "accepted_negatives": 3,
+      "pending_coordinates": [
+        [
+          6,
+          65,
+          81,
+          83
+        ],
+        [
+          6,
+          65,
+          81,
+          82
+        ],
+        [
+          6,
+          66,
+          81,
+          83
+        ]
+      ]
+    },
+    "778273": {
+      "r": 13,
+      "report": "logs/product_max_owner_778273_fourth_verification.json",
+      "accepted_negatives": 204,
+      "pending_coordinates": []
+    },
+    "788953": {
+      "r": 13,
+      "report": "logs/dual_owner_788953_third_verification.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": [
+        [
+          13,
+          68,
+          75,
+          77
+        ],
+        [
+          13,
+          71,
+          75,
+          76
+        ],
+        [
+          13,
+          72,
+          75,
+          77
+        ],
+        [
+          13,
+          72,
+          73,
+          74
+        ],
+        [
+          13,
+          70,
+          75,
+          76
+        ],
+        [
+          13,
+          65,
+          72,
+          74
+        ],
+        [
+          13,
+          63,
+          72,
+          73
+        ],
+        [
+          13,
+          63,
+          72,
+          76
+        ],
+        [
+          13,
+          64,
+          72,
+          75
+        ],
+        [
+          13,
+          69,
+          75,
+          76
+        ],
+        [
+          13,
+          70,
+          75,
+          77
+        ],
+        [
+          13,
+          64,
+          73,
+          76
+        ],
+        [
+          13,
+          68,
+          75,
+          76
+        ],
+        [
+          13,
+          70,
+          73,
+          74
+        ],
+        [
+          13,
+          67,
+          73,
+          74
+        ],
+        [
+          13,
+          72,
+          75,
+          76
+        ],
+        [
+          13,
+          70,
+          74,
+          75
+        ],
+        [
+          13,
+          71,
+          75,
+          77
+        ],
+        [
+          13,
+          69,
+          75,
+          77
+        ],
+        [
+          13,
+          62,
+          72,
+          75
+        ],
+        [
+          13,
+          64,
+          72,
+          76
+        ],
+        [
+          13,
+          66,
+          72,
+          73
+        ],
+        [
+          13,
+          62,
+          72,
+          73
+        ],
+        [
+          13,
+          67,
+          75,
+          76
+        ]
+      ]
+    },
+    "788411": {
+      "r": 12,
+      "report": "logs/dual_owner_788411_second_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          12,
+          65,
+          73,
+          74
+        ],
+        [
+          12,
+          64,
+          73,
+          78
+        ],
+        [
+          12,
+          64,
+          73,
+          76
+        ],
+        [
+          12,
+          63,
+          73,
+          76
+        ],
+        [
+          12,
+          63,
+          73,
+          75
+        ],
+        [
+          12,
+          64,
+          73,
+          77
+        ],
+        [
+          12,
+          65,
+          73,
+          76
+        ],
+        [
+          12,
+          63,
+          73,
+          77
+        ],
+        [
+          12,
+          65,
+          73,
+          77
+        ],
+        [
+          12,
+          63,
+          73,
+          78
+        ],
+        [
+          12,
+          65,
+          73,
+          75
+        ],
+        [
+          12,
+          64,
+          73,
+          74
+        ],
+        [
+          12,
+          62,
+          73,
+          78
+        ],
+        [
+          12,
+          64,
+          73,
+          75
+        ],
+        [
+          12,
+          63,
+          73,
+          74
+        ]
+      ]
+    },
+    "789323": {
+      "r": 13,
+      "report": "logs/dual_owner_789323_twentyeighth_verification.json",
+      "accepted_negatives": 24203,
+      "pending_coordinates": [
+        [
+          13,
+          43,
+          55,
+          71
+        ],
+        [
+          13,
+          42,
+          68,
+          74
+        ],
+        [
+          13,
+          42,
+          68,
+          70
+        ],
+        [
+          13,
+          43,
+          55,
+          63
+        ],
+        [
+          13,
+          42,
+          67,
+          72
+        ],
+        [
+          13,
+          42,
+          67,
+          70
+        ]
+      ]
+    },
+    "789431": {
+      "r": 13,
+      "report": "logs/dual_owner_789431_twentysixth_verification.json",
+      "accepted_negatives": 3070,
+      "pending_coordinates": [
+        [
+          13,
+          43,
+          55,
+          65
+        ],
+        [
+          13,
+          42,
+          71,
+          72
+        ],
+        [
+          13,
+          43,
+          55,
+          70
+        ],
+        [
+          13,
+          43,
+          55,
+          67
+        ],
+        [
+          13,
+          43,
+          55,
+          68
+        ],
+        [
+          13,
+          43,
+          55,
+          75
+        ],
+        [
+          13,
+          42,
+          68,
+          69
+        ],
+        [
+          13,
+          42,
+          68,
+          71
+        ],
+        [
+          13,
+          43,
+          55,
+          69
+        ],
+        [
+          13,
+          43,
+          55,
+          72
+        ],
+        [
+          13,
+          43,
+          55,
+          66
+        ],
+        [
+          13,
+          42,
+          69,
+          71
+        ],
+        [
+          13,
+          42,
+          69,
+          72
+        ],
+        [
+          13,
+          42,
+          67,
+          69
+        ],
+        [
+          13,
+          43,
+          55,
+          64
+        ],
+        [
+          13,
+          43,
+          55,
+          73
+        ]
+      ]
+    },
+    "789515": {
+      "r": 12,
+      "report": "logs/dual_owner_789515_twentysixth_verification.json",
+      "accepted_negatives": 23000,
+      "pending_coordinates": [
+        [
+          12,
+          38,
+          63,
+          67
+        ],
+        [
+          12,
+          38,
+          62,
+          69
+        ],
+        [
+          12,
+          38,
+          63,
+          66
+        ],
+        [
+          12,
+          38,
+          63,
+          65
+        ]
+      ]
+    },
+    "789303": {
+      "r": 14,
+      "report": "logs/dual_owner_789303_retired_verification.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "789569": {
+      "r": 12,
+      "report": "logs/dual_owner_789569_twentyfifth_verification.json",
+      "accepted_negatives": 4604,
+      "pending_coordinates": [
+        [
+          12,
+          38,
+          63,
+          69
+        ],
+        [
+          12,
+          38,
+          63,
+          71
+        ],
+        [
+          12,
+          38,
+          62,
+          68
+        ],
+        [
+          12,
+          38,
+          62,
+          72
+        ],
+        [
+          12,
+          38,
+          63,
+          72
+        ],
+        [
+          12,
+          38,
+          62,
+          70
+        ],
+        [
+          12,
+          38,
+          62,
+          71
+        ],
+        [
+          12,
+          38,
+          63,
+          73
+        ],
+        [
+          12,
+          38,
+          63,
+          64
+        ],
+        [
+          12,
+          38,
+          63,
+          70
+        ],
+        [
+          12,
+          38,
+          63,
+          68
+        ],
+        [
+          12,
+          38,
+          62,
+          67
+        ]
+      ]
+    },
+    "789776": {
+      "r": 11,
+      "report": "logs/dual_owner_789776_twentysixth_verification.json",
+      "accepted_negatives": 25255,
+      "pending_coordinates": [
+        [
+          11,
+          34,
+          65,
+          66
+        ],
+        [
+          11,
+          34,
+          64,
+          65
+        ],
+        [
+          11,
+          34,
+          64,
+          71
+        ],
+        [
+          11,
+          34,
+          65,
+          67
+        ],
+        [
+          11,
+          34,
+          64,
+          67
+        ],
+        [
+          11,
+          34,
+          64,
+          70
+        ]
+      ]
+    },
+    "789857": {
+      "r": 10,
+      "report": "logs/dual_owner_789857_twentysixth_verification.json",
+      "accepted_negatives": 23008,
+      "pending_coordinates": [
+        [
+          10,
+          31,
+          61,
+          63
+        ],
+        [
+          10,
+          31,
+          61,
+          62
+        ]
+      ]
+    },
+    "789902": {
+      "r": 9,
+      "report": "logs/dual_owner_789902_twentyfifth_verification.json",
+      "accepted_negatives": 22693,
+      "pending_coordinates": [
+        [
+          9,
+          30,
+          64,
+          70
+        ],
+        [
+          9,
+          30,
+          64,
+          69
+        ]
+      ]
+    },
+    "789940": {
+      "r": 8,
+      "report": "logs/dual_owner_789940_twentyfifth_verification.json",
+      "accepted_negatives": 23593,
+      "pending_coordinates": [
+        [
+          8,
+          30,
+          72,
+          73
+        ],
+        [
+          8,
+          30,
+          72,
+          75
+        ]
+      ]
+    },
+    "790001": {
+      "r": 7,
+      "report": "logs/dual_owner_790001_twentyfourth_verification.json",
+      "accepted_negatives": 25270,
+      "pending_coordinates": [
+        [
+          7,
+          31,
+          59,
+          73
+        ]
+      ]
+    },
+    "790394": {
+      "r": 6,
+      "report": "logs/dual_owner_790394_twentysecond_verification.json",
+      "accepted_negatives": 1328,
+      "pending_coordinates": [
+        [
+          6,
+          46,
+          60,
+          67
+        ]
+      ]
+    },
+    "790479": {
+      "r": 5,
+      "report": "logs/dual_owner_790479_fifteenth_verification.json",
+      "accepted_negatives": 5,
+      "pending_coordinates": [
+        [
+          5,
+          61,
+          67,
+          78
+        ],
+        [
+          5,
+          61,
+          67,
+          76
+        ]
+      ]
+    },
+    "790487": {
+      "r": 13,
+      "report": "logs/dual_owner_790487_twentieth_verification.json",
+      "accepted_negatives": 135,
+      "pending_coordinates": [
+        [
+          13,
+          42,
+          69,
+          70
+        ]
+      ]
+    },
+    "790880": {
+      "r": 13,
+      "report": "logs/dual_owner_790880_thirteenth_verification.json",
+      "accepted_negatives": 41,
+      "pending_coordinates": [
+        [
+          13,
+          43,
+          56,
+          58
+        ],
+        [
+          13,
+          42,
+          67,
+          68
+        ]
+      ]
+    },
+    "790963": {
+      "r": 13,
+      "report": "logs/dual_owner_790963_eleventh_verification.json",
+      "accepted_negatives": 9,
+      "pending_coordinates": [
+        [
+          13,
+          42,
+          71,
+          73
+        ]
+      ]
+    },
+    "791591": {
+      "r": 11,
+      "report": "logs/dual_owner_791591_second_verification.json",
+      "accepted_negatives": 49,
+      "pending_coordinates": [
+        [
+          11,
+          34,
+          64,
+          74
+        ],
+        [
+          11,
+          34,
+          64,
+          73
+        ],
+        [
+          11,
+          34,
+          64,
+          68
+        ],
+        [
+          11,
+          34,
+          64,
+          66
+        ],
+        [
+          11,
+          34,
+          64,
+          69
+        ],
+        [
+          11,
+          34,
+          64,
+          72
+        ]
+      ]
+    },
+    "791850": {
+      "r": 12,
+      "report": "logs/product_max_owner_791850_seventh_retired_verification.json",
+      "accepted_negatives": 4823,
+      "pending_coordinates": [
+        [
+          12,
+          46,
+          62,
+          72
+        ],
+        [
+          12,
+          46,
+          63,
+          72
+        ],
+        [
+          12,
+          46,
+          63,
+          64
+        ],
+        [
+          12,
+          46,
+          63,
+          71
+        ],
+        [
+          12,
+          46,
+          62,
+          73
+        ],
+        [
+          12,
+          46,
+          63,
+          67
+        ],
+        [
+          12,
+          46,
+          62,
+          69
+        ],
+        [
+          12,
+          46,
+          62,
+          64
+        ],
+        [
+          12,
+          46,
+          63,
+          69
+        ],
+        [
+          12,
+          46,
+          62,
+          70
+        ],
+        [
+          12,
+          46,
+          62,
+          65
+        ],
+        [
+          12,
+          46,
+          63,
+          65
+        ],
+        [
+          12,
+          46,
+          62,
+          71
+        ],
+        [
+          12,
+          46,
+          63,
+          66
+        ],
+        [
+          12,
+          46,
+          63,
+          68
+        ],
+        [
+          12,
+          46,
+          63,
+          70
+        ]
+      ]
+    },
+    "791983": {
+      "r": 13,
+      "report": "logs/product_max_owner_791983_eighth_retired_verification.json",
+      "accepted_negatives": 3526,
+      "pending_coordinates": []
+    },
+    "792088": {
+      "r": 6,
+      "report": "logs/product_max_owner_792088_threethousandfiftysixth_verification.json",
+      "accepted_negatives": 250,
+      "pending_coordinates": [
+        [
+          6,
+          51,
+          72,
+          83
+        ]
+      ]
+    },
+    "792097": {
+      "r": 7,
+      "report": "logs/product_max_owner_792097_threethousandfiftysixth_verification.json",
+      "accepted_negatives": 5196,
+      "pending_coordinates": [
+        [
+          7,
+          53,
+          76,
+          79
+        ]
+      ]
+    },
+    "792105": {
+      "r": 8,
+      "report": "logs/product_max_owner_792105_threethousandfiftysixth_verification.json",
+      "accepted_negatives": 12755,
+      "pending_coordinates": [
+        [
+          8,
+          44,
+          65,
+          67
+        ],
+        [
+          8,
+          44,
+          65,
+          66
+        ]
+      ]
+    },
+    "792118": {
+      "r": 9,
+      "report": "logs/product_max_owner_792118_threethousandfiftysixth_verification.json",
+      "accepted_negatives": 7979,
+      "pending_coordinates": [
+        [
+          9,
+          45,
+          61,
+          71
+        ],
+        [
+          9,
+          45,
+          61,
+          67
+        ]
+      ]
+    },
+    "792131": {
+      "r": 10,
+      "report": "logs/product_max_owner_792131_threethousandfiftysixth_verification.json",
+      "accepted_negatives": 8675,
+      "pending_coordinates": [
+        [
+          10,
+          46,
+          59,
+          68
+        ],
+        [
+          10,
+          46,
+          59,
+          69
+        ]
+      ]
+    },
+    "792144": {
+      "r": 11,
+      "report": "logs/product_max_owner_792144_threethousandfiftysixth_verification.json",
+      "accepted_negatives": 10929,
+      "pending_coordinates": [
+        [
+          11,
+          51,
+          71,
+          72
+        ],
+        [
+          11,
+          52,
+          54,
+          73
+        ],
+        [
+          11,
+          52,
+          54,
+          75
+        ],
+        [
+          11,
+          52,
+          54,
+          77
+        ],
+        [
+          11,
+          52,
+          54,
+          72
+        ],
+        [
+          11,
+          52,
+          54,
+          74
+        ],
+        [
+          11,
+          52,
+          54,
+          76
+        ],
+        [
+          11,
+          51,
+          72,
+          73
+        ],
+        [
+          11,
+          51,
+          73,
+          74
+        ],
+        [
+          11,
+          52,
+          54,
+          71
+        ],
+        [
+          11,
+          51,
+          74,
+          75
+        ],
+        [
+          11,
+          52,
+          54,
+          70
+        ]
+      ]
+    },
+    "792241": {
+      "r": 5,
+      "report": "logs/product_max_owner_792241_threethousandfiftysixth_verification.json",
+      "accepted_negatives": 208,
+      "pending_coordinates": [
+        [
+          5,
+          73,
+          77,
+          83
+        ],
+        [
+          5,
+          74,
+          76,
+          81
+        ],
+        [
+          5,
+          74,
+          76,
+          83
+        ],
+        [
+          5,
+          73,
+          75,
+          83
+        ],
+        [
+          5,
+          73,
+          74,
+          81
+        ],
+        [
+          5,
+          61,
+          72,
+          73
+        ],
+        [
+          5,
+          72,
+          73,
+          81
+        ],
+        [
+          5,
+          61,
+          67,
+          83
+        ],
+        [
+          5,
+          72,
+          73,
+          75
+        ],
+        [
+          5,
+          72,
+          73,
+          79
+        ],
+        [
+          5,
+          74,
+          76,
+          80
+        ],
+        [
+          5,
+          72,
+          74,
+          76
+        ],
+        [
+          5,
+          73,
+          76,
+          79
+        ],
+        [
+          5,
+          61,
+          71,
+          75
+        ],
+        [
+          5,
+          72,
+          73,
+          74
+        ],
+        [
+          5,
+          72,
+          74,
+          83
+        ],
+        [
+          5,
+          73,
+          76,
+          77
+        ],
+        [
+          5,
+          61,
+          71,
+          82
+        ],
+        [
+          5,
+          73,
+          76,
+          82
+        ],
+        [
+          5,
+          72,
+          73,
+          80
+        ],
+        [
+          5,
+          61,
+          71,
+          72
+        ],
+        [
+          5,
+          73,
+          75,
+          81
+        ],
+        [
+          5,
+          61,
+          68,
+          79
+        ],
+        [
+          5,
+          73,
+          74,
+          75
+        ],
+        [
+          5,
+          61,
+          69,
+          81
+        ],
+        [
+          5,
+          61,
+          72,
+          75
+        ],
+        [
+          5,
+          73,
+          75,
+          78
+        ],
+        [
+          5,
+          72,
+          74,
+          78
+        ],
+        [
+          5,
+          61,
+          71,
+          78
+        ],
+        [
+          5,
+          72,
+          73,
+          77
+        ],
+        [
+          5,
+          61,
+          73,
+          78
+        ]
+      ]
+    },
+    "792695": {
+      "r": 6,
+      "report": "logs/product_max_owner_792695_threethousandfiftysixth_verification.json",
+      "accepted_negatives": 5008,
+      "pending_coordinates": [
+        [
+          6,
+          54,
+          78,
+          82
+        ],
+        [
+          6,
+          55,
+          73,
+          78
+        ],
+        [
+          6,
+          54,
+          74,
+          83
+        ],
+        [
+          6,
+          56,
+          69,
+          81
+        ],
+        [
+          6,
+          52,
+          74,
+          77
+        ],
+        [
+          6,
+          56,
+          69,
+          80
+        ],
+        [
+          6,
+          53,
+          74,
+          79
+        ],
+        [
+          6,
+          55,
+          71,
+          76
+        ],
+        [
+          6,
+          54,
+          67,
+          78
+        ],
+        [
+          6,
+          56,
+          73,
+          75
+        ],
+        [
+          6,
+          56,
+          73,
+          79
+        ],
+        [
+          6,
+          52,
+          79,
+          81
+        ],
+        [
+          6,
+          55,
+          74,
+          79
+        ],
+        [
+          6,
+          56,
+          73,
+          80
+        ],
+        [
+          6,
+          55,
+          78,
+          79
+        ],
+        [
+          6,
+          49,
+          78,
+          80
+        ],
+        [
+          6,
+          53,
+          74,
+          81
+        ],
+        [
+          6,
+          56,
+          71,
+          83
+        ],
+        [
+          6,
+          53,
+          79,
+          82
+        ],
+        [
+          6,
+          56,
+          73,
+          81
+        ]
+      ]
+    },
+    "792760": {
+      "r": 7,
+      "report": "logs/product_max_owner_792760_threethousandfiftysixth_verification.json",
+      "accepted_negatives": 12661,
+      "pending_coordinates": [
+        [
+          7,
+          53,
+          77,
+          81
+        ],
+        [
+          7,
+          53,
+          78,
+          80
+        ],
+        [
+          7,
+          52,
+          78,
+          80
+        ],
+        [
+          7,
+          52,
+          75,
+          82
+        ]
+      ]
+    },
+    "792777": {
+      "r": 9,
+      "report": "logs/product_max_owner_792777_threethousandfiftysixth_verification.json",
+      "accepted_negatives": 5604,
+      "pending_coordinates": [
+        [
+          9,
+          45,
+          61,
+          69
+        ],
+        [
+          9,
+          45,
+          61,
+          70
+        ]
+      ]
+    },
+    "792826": {
+      "r": 10,
+      "report": "logs/product_max_owner_792826_threethousandfiftysixth_verification.json",
+      "accepted_negatives": 3600,
+      "pending_coordinates": [
+        [
+          10,
+          46,
+          59,
+          67
+        ],
+        [
+          10,
+          46,
+          59,
+          66
+        ]
+      ]
+    },
+    "793314": {
+      "r": 13,
+      "report": "logs/product_max_owner_793314_seventeenth_retired_verification.json",
+      "accepted_negatives": 808,
+      "pending_coordinates": []
+    },
+    "793622": {
+      "r": 12,
+      "report": "logs/product_max_owner_793622_twentythird_retired_verification.json",
+      "accepted_negatives": 550,
+      "pending_coordinates": []
+    },
+    "793740": {
+      "r": 13,
+      "report": "logs/product_max_owner_793740_threethousandfortyninth_verification.json",
+      "accepted_negatives": 582,
+      "pending_coordinates": []
+    },
+    "794643": {
+      "r": 13,
+      "report": "logs/product_max_owner_794643_threethousandthirtyfirst_verification.json",
+      "accepted_negatives": 755,
+      "pending_coordinates": []
+    },
+    "794958": {
+      "r": 12,
+      "report": "logs/product_max_owner_794958_threethousandtwentyeighth_verification.json",
+      "accepted_negatives": 2993,
+      "pending_coordinates": []
+    },
+    "795589": {
+      "r": 7,
+      "report": "logs/product_max_owner_795589_threethousandthirteenth_verification.json",
+      "accepted_negatives": 14,
+      "pending_coordinates": [
+        [
+          7,
+          74,
+          81,
+          82
+        ],
+        [
+          7,
+          60,
+          81,
+          83
+        ],
+        [
+          7,
+          61,
+          81,
+          82
+        ],
+        [
+          7,
+          65,
+          81,
+          82
+        ],
+        [
+          7,
+          70,
+          81,
+          83
+        ],
+        [
+          7,
+          69,
+          81,
+          82
+        ],
+        [
+          7,
+          71,
+          81,
+          83
+        ],
+        [
+          7,
+          66,
+          81,
+          82
+        ],
+        [
+          7,
+          64,
+          81,
+          83
+        ],
+        [
+          7,
+          73,
+          81,
+          83
+        ],
+        [
+          7,
+          74,
+          81,
+          83
+        ],
+        [
+          7,
+          62,
+          81,
+          82
+        ],
+        [
+          7,
+          72,
+          81,
+          82
+        ],
+        [
+          7,
+          71,
+          81,
+          82
+        ],
+        [
+          7,
+          70,
+          81,
+          82
+        ],
+        [
+          7,
+          67,
+          81,
+          83
+        ],
+        [
+          7,
+          73,
+          81,
+          82
+        ],
+        [
+          7,
+          68,
+          81,
+          82
+        ],
+        [
+          7,
+          75,
+          81,
+          82
+        ],
+        [
+          7,
+          67,
+          81,
+          82
+        ]
+      ]
+    },
+    "796458": {
+      "r": 7,
+      "report": "logs/product_max_owner_796458_threethousandtenth_verification.json",
+      "accepted_negatives": 232,
+      "pending_coordinates": [
+        [
+          7,
+          67,
+          80,
+          83
+        ],
+        [
+          7,
+          62,
+          80,
+          81
+        ],
+        [
+          7,
+          67,
+          79,
+          82
+        ],
+        [
+          7,
+          76,
+          81,
+          82
+        ],
+        [
+          7,
+          77,
+          81,
+          82
+        ],
+        [
+          7,
+          59,
+          80,
+          81
+        ],
+        [
+          7,
+          67,
+          80,
+          82
+        ],
+        [
+          7,
+          62,
+          80,
+          83
+        ],
+        [
+          7,
+          59,
+          80,
+          82
+        ],
+        [
+          7,
+          69,
+          80,
+          81
+        ],
+        [
+          7,
+          69,
+          79,
+          80
+        ],
+        [
+          7,
+          78,
+          81,
+          82
+        ]
+      ]
+    },
+    "796838": {
+      "r": 8,
+      "report": "logs/product_max_owner_796838_threethousandeighth_verification.json",
+      "accepted_negatives": 14,
+      "pending_coordinates": [
+        [
+          8,
+          75,
+          81,
+          82
+        ],
+        [
+          8,
+          73,
+          81,
+          82
+        ],
+        [
+          8,
+          76,
+          81,
+          82
+        ],
+        [
+          8,
+          67,
+          81,
+          82
+        ],
+        [
+          8,
+          77,
+          81,
+          82
+        ],
+        [
+          8,
+          72,
+          81,
+          82
+        ],
+        [
+          8,
+          70,
+          81,
+          82
+        ],
+        [
+          8,
+          71,
+          81,
+          82
+        ]
+      ]
+    },
+    "796889": {
+      "r": 9,
+      "report": "logs/product_max_owner_796889_threethousandeighth_verification.json",
+      "accepted_negatives": 42,
+      "pending_coordinates": [
+        [
+          9,
+          76,
+          80,
+          81
+        ],
+        [
+          9,
+          78,
+          80,
+          81
+        ],
+        [
+          9,
+          57,
+          79,
+          81
+        ],
+        [
+          9,
+          77,
+          80,
+          81
+        ],
+        [
+          9,
+          73,
+          80,
+          81
+        ],
+        [
+          9,
+          59,
+          79,
+          80
+        ]
+      ]
+    },
+    "796865": {
+      "r": 10,
+      "report": "logs/product_max_owner_796865_threethousandeighth_verification.json",
+      "accepted_negatives": 66,
+      "pending_coordinates": [
+        [
+          10,
+          76,
+          78,
+          79
+        ],
+        [
+          10,
+          59,
+          75,
+          76
+        ],
+        [
+          10,
+          77,
+          78,
+          79
+        ],
+        [
+          10,
+          76,
+          78,
+          80
+        ],
+        [
+          10,
+          75,
+          76,
+          78
+        ],
+        [
+          10,
+          72,
+          77,
+          78
+        ]
+      ]
+    },
+    "797096": {
+      "r": 7,
+      "report": "logs/product_max_owner_797096_threethousandfifth_verification.json",
+      "accepted_negatives": 48,
+      "pending_coordinates": [
+        [
+          7,
+          62,
+          80,
+          82
+        ],
+        [
+          7,
+          79,
+          81,
+          83
+        ],
+        [
+          7,
+          80,
+          81,
+          83
+        ],
+        [
+          7,
+          80,
+          81,
+          82
+        ],
+        [
+          7,
+          64,
+          80,
+          81
+        ],
+        [
+          7,
+          67,
+          80,
+          81
+        ],
+        [
+          7,
+          53,
+          80,
+          81
+        ],
+        [
+          7,
+          58,
+          80,
+          82
+        ],
+        [
+          7,
+          79,
+          81,
+          82
+        ],
+        [
+          7,
+          67,
+          79,
+          81
+        ],
+        [
+          7,
+          73,
+          80,
+          83
+        ],
+        [
+          7,
+          65,
+          80,
+          81
+        ]
+      ]
+    },
+    "797769": {
+      "r": 13,
+      "report": "logs/distinct_owner_797769_twothousandninehundredninetyninth_verification.json",
+      "accepted_negatives": 3,
+      "pending_coordinates": []
+    },
+    "797921": {
+      "r": 13,
+      "report": "logs/distinct_owner_797921_twothousandninehundredninetysixth_verification.json",
+      "accepted_negatives": 4,
+      "pending_coordinates": []
+    },
+    "798179": {
+      "r": 13,
+      "report": "logs/distinct_owner_798179_twothousandninehundredninetyfirst_verification.json",
+      "accepted_negatives": 9,
+      "pending_coordinates": []
+    },
+    "798361": {
+      "r": 10,
+      "report": "logs/distinct_owner_798361_twothousandninehundredeightyeighth_verification.json",
+      "accepted_negatives": 4,
+      "pending_coordinates": []
+    },
+    "798445": {
+      "r": 10,
+      "report": "logs/distinct_owner_798445_twothousandninehundredeightyseventh_verification.json",
+      "accepted_negatives": 83,
+      "pending_coordinates": [
+        [
+          10,
+          65,
+          75,
+          76
+        ],
+        [
+          10,
+          76,
+          77,
+          79
+        ],
+        [
+          10,
+          75,
+          77,
+          79
+        ],
+        [
+          10,
+          71,
+          77,
+          80
+        ]
+      ]
+    },
+    "798565": {
+      "r": 10,
+      "report": "logs/distinct_owner_798565_twothousandninehundredeightyfifth_verification.json",
+      "accepted_negatives": 87,
+      "pending_coordinates": [
+        [
+          10,
+          71,
+          77,
+          78
+        ],
+        [
+          10,
+          72,
+          76,
+          77
+        ],
+        [
+          10,
+          74,
+          76,
+          77
+        ],
+        [
+          10,
+          66,
+          75,
+          77
+        ]
+      ]
+    },
+    "798811": {
+      "r": 10,
+      "report": "logs/distinct_owner_798811_twothousandninehundredeightyfirst_verification.json",
+      "accepted_negatives": 118,
+      "pending_coordinates": [
+        [
+          10,
+          64,
+          75,
+          76
+        ],
+        [
+          10,
+          66,
+          75,
+          76
+        ],
+        [
+          10,
+          73,
+          77,
+          79
+        ],
+        [
+          10,
+          73,
+          76,
+          77
+        ]
+      ]
+    },
+    "834989": {
+      "r": 7,
+      "report": "logs/product_max_owner_834989_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": [
+        [
+          7,
+          73,
+          80,
+          82
+        ],
+        [
+          7,
+          72,
+          80,
+          83
+        ],
+        [
+          7,
+          72,
+          80,
+          82
+        ],
+        [
+          7,
+          70,
+          80,
+          81
+        ],
+        [
+          7,
+          71,
+          80,
+          83
+        ],
+        [
+          7,
+          71,
+          80,
+          81
+        ],
+        [
+          7,
+          70,
+          80,
+          83
+        ],
+        [
+          7,
+          69,
+          80,
+          82
+        ],
+        [
+          7,
+          70,
+          80,
+          82
+        ],
+        [
+          7,
+          72,
+          80,
+          81
+        ],
+        [
+          7,
+          73,
+          80,
+          81
+        ],
+        [
+          7,
+          71,
+          80,
+          82
+        ]
+      ]
+    },
+    "835248": {
+      "r": 8,
+      "report": "logs/product_max_owner_835248_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 47,
+      "pending_coordinates": [
+        [
+          8,
+          61,
+          80,
+          81
+        ],
+        [
+          8,
+          78,
+          81,
+          82
+        ],
+        [
+          8,
+          60,
+          80,
+          81
+        ],
+        [
+          8,
+          80,
+          81,
+          82
+        ],
+        [
+          8,
+          59,
+          80,
+          81
+        ],
+        [
+          8,
+          79,
+          81,
+          82
+        ]
+      ]
+    },
+    "834298": {
+      "r": 4,
+      "report": "logs/product_max_owner_834298_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": []
+    },
+    "831073": {
+      "r": 4,
+      "report": "logs/product_max_owner_831073_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "842820": {
+      "r": 7,
+      "report": "logs/product_max_owner_842820_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 68,
+      "pending_coordinates": [
+        [
+          7,
+          60,
+          79,
+          80
+        ],
+        [
+          7,
+          68,
+          79,
+          81
+        ],
+        [
+          7,
+          59,
+          79,
+          80
+        ],
+        [
+          7,
+          62,
+          79,
+          82
+        ],
+        [
+          7,
+          62,
+          79,
+          80
+        ],
+        [
+          7,
+          78,
+          80,
+          82
+        ],
+        [
+          7,
+          78,
+          80,
+          83
+        ],
+        [
+          7,
+          77,
+          80,
+          82
+        ],
+        [
+          7,
+          58,
+          79,
+          80
+        ],
+        [
+          7,
+          79,
+          80,
+          81
+        ],
+        [
+          7,
+          63,
+          79,
+          81
+        ],
+        [
+          7,
+          56,
+          79,
+          81
+        ],
+        [
+          7,
+          54,
+          79,
+          80
+        ],
+        [
+          7,
+          61,
+          79,
+          82
+        ],
+        [
+          7,
+          75,
+          80,
+          82
+        ],
+        [
+          7,
+          59,
+          79,
+          83
+        ],
+        [
+          7,
+          68,
+          79,
+          83
+        ],
+        [
+          7,
+          79,
+          80,
+          82
+        ],
+        [
+          7,
+          65,
+          79,
+          82
+        ],
+        [
+          7,
+          75,
+          80,
+          81
+        ],
+        [
+          7,
+          66,
+          79,
+          80
+        ],
+        [
+          7,
+          58,
+          79,
+          81
+        ],
+        [
+          7,
+          67,
+          79,
+          83
+        ],
+        [
+          7,
+          78,
+          80,
+          81
+        ],
+        [
+          7,
+          68,
+          79,
+          80
+        ],
+        [
+          7,
+          68,
+          79,
+          82
+        ],
+        [
+          7,
+          67,
+          79,
+          80
+        ],
+        [
+          7,
+          63,
+          79,
+          80
+        ],
+        [
+          7,
+          61,
+          79,
+          83
+        ],
+        [
+          7,
+          64,
+          79,
+          80
+        ],
+        [
+          7,
+          64,
+          79,
+          81
+        ],
+        [
+          7,
+          60,
+          79,
+          81
+        ],
+        [
+          7,
+          57,
+          79,
+          80
+        ],
+        [
+          7,
+          61,
+          79,
+          80
+        ],
+        [
+          7,
+          61,
+          79,
+          81
+        ],
+        [
+          7,
+          74,
+          80,
+          81
+        ],
+        [
+          7,
+          63,
+          79,
+          82
+        ],
+        [
+          7,
+          60,
+          79,
+          82
+        ],
+        [
+          7,
+          74,
+          79,
+          83
+        ],
+        [
+          7,
+          77,
+          80,
+          81
+        ],
+        [
+          7,
+          76,
+          80,
+          81
+        ],
+        [
+          7,
+          79,
+          80,
+          83
+        ]
+      ]
+    },
+    "842964": {
+      "r": 8,
+      "report": "logs/product_max_owner_842964_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 20,
+      "pending_coordinates": [
+        [
+          8,
+          69,
+          80,
+          81
+        ],
+        [
+          8,
+          65,
+          80,
+          81
+        ],
+        [
+          8,
+          68,
+          80,
+          82
+        ],
+        [
+          8,
+          68,
+          80,
+          81
+        ],
+        [
+          8,
+          67,
+          80,
+          81
+        ],
+        [
+          8,
+          63,
+          80,
+          81
+        ],
+        [
+          8,
+          63,
+          79,
+          80
+        ],
+        [
+          8,
+          66,
+          80,
+          81
+        ],
+        [
+          8,
+          62,
+          79,
+          80
+        ]
+      ]
+    },
+    "875423": {
+      "r": 7,
+      "report": "logs/product_max_owner_875423_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 5,
+      "pending_coordinates": []
+    },
+    "885366": {
+      "r": 7,
+      "report": "logs/product_max_owner_885366_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 1,
+      "pending_coordinates": []
+    },
+    "915918": {
+      "r": 7,
+      "report": "logs/product_max_owner_915918_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 4,
+      "pending_coordinates": []
+    },
+    "916028": {
+      "r": 7,
+      "report": "logs/product_max_owner_916028_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 14,
+      "pending_coordinates": [
+        [
+          7,
+          65,
+          79,
+          81
+        ],
+        [
+          7,
+          65,
+          79,
+          80
+        ],
+        [
+          7,
+          66,
+          79,
+          81
+        ],
+        [
+          7,
+          64,
+          79,
+          83
+        ]
+      ]
+    },
+    "918176": {
+      "r": 7,
+      "report": "logs/product_max_owner_918176_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          7,
+          53,
+          81,
+          82
+        ]
+      ]
+    },
+    "932968": {
+      "r": 9,
+      "report": "logs/product_max_owner_932968_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 16,
+      "pending_coordinates": [
+        [
+          9,
+          67,
+          79,
+          80
+        ]
+      ]
+    },
+    "941573": {
+      "r": 7,
+      "report": "logs/product_max_owner_941573_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          7,
+          54,
+          81,
+          82
+        ]
+      ]
+    },
+    "949732": {
+      "r": 6,
+      "report": "logs/product_max_owner_949732_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 24,
+      "pending_coordinates": [
+        [
+          6,
+          71,
+          81,
+          82
+        ]
+      ]
+    },
+    "949725": {
+      "r": 7,
+      "report": "logs/product_max_owner_949725_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          7,
+          56,
+          81,
+          82
+        ]
+      ]
+    },
+    "949738": {
+      "r": 8,
+      "report": "logs/product_max_owner_949738_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 8,
+      "pending_coordinates": [
+        [
+          8,
+          70,
+          80,
+          81
+        ]
+      ]
+    },
+    "816174": {
+      "r": 7,
+      "report": "logs/product_max_owner_816174_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 2,
+      "pending_coordinates": [
+        [
+          7,
+          69,
+          79,
+          81
+        ]
+      ]
+    },
+    "976096": {
+      "r": 4,
+      "report": "logs/product_max_owner_976096_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          4,
+          73,
+          84,
+          85
+        ],
+        [
+          4,
+          76,
+          83,
+          84
+        ],
+        [
+          4,
+          76,
+          82,
+          83
+        ],
+        [
+          4,
+          73,
+          83,
+          86
+        ],
+        [
+          4,
+          76,
+          81,
+          84
+        ]
+      ]
+    },
+    "976113": {
+      "r": 12,
+      "report": "logs/product_max_owner_976113_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 106,
+      "pending_coordinates": [
+        [
+          12,
+          58,
+          60,
+          68
+        ],
+        [
+          12,
+          57,
+          71,
+          72
+        ],
+        [
+          12,
+          57,
+          73,
+          74
+        ],
+        [
+          12,
+          57,
+          69,
+          70
+        ],
+        [
+          12,
+          58,
+          60,
+          72
+        ],
+        [
+          12,
+          58,
+          60,
+          66
+        ],
+        [
+          12,
+          58,
+          60,
+          71
+        ],
+        [
+          12,
+          58,
+          60,
+          69
+        ],
+        [
+          12,
+          57,
+          70,
+          71
+        ],
+        [
+          12,
+          58,
+          60,
+          73
+        ],
+        [
+          12,
+          58,
+          60,
+          65
+        ],
+        [
+          12,
+          57,
+          72,
+          73
+        ],
+        [
+          12,
+          58,
+          60,
+          70
+        ],
+        [
+          12,
+          58,
+          60,
+          63
+        ],
+        [
+          12,
+          58,
+          60,
+          64
+        ],
+        [
+          12,
+          58,
+          60,
+          67
+        ]
+      ]
+    },
+    "976286": {
+      "r": 6,
+      "report": "logs/product_max_owner_976286_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 0,
+      "pending_coordinates": [
+        [
+          6,
+          71,
+          81,
+          83
+        ]
+      ]
+    },
+    "976163": {
+      "r": 7,
+      "report": "logs/product_max_owner_976163_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 4,
+      "pending_coordinates": [
+        [
+          7,
+          69,
+          79,
+          83
+        ],
+        [
+          7,
+          69,
+          82,
+          83
+        ],
+        [
+          7,
+          71,
+          79,
+          83
+        ],
+        [
+          7,
+          72,
+          79,
+          81
+        ],
+        [
+          7,
+          73,
+          79,
+          80
+        ],
+        [
+          7,
+          71,
+          79,
+          81
+        ],
+        [
+          7,
+          67,
+          82,
+          83
+        ],
+        [
+          7,
+          73,
+          79,
+          83
+        ],
+        [
+          7,
+          70,
+          79,
+          82
+        ],
+        [
+          7,
+          64,
+          81,
+          82
+        ],
+        [
+          7,
+          74,
+          79,
+          80
+        ],
+        [
+          7,
+          71,
+          79,
+          80
+        ],
+        [
+          7,
+          73,
+          79,
+          81
+        ],
+        [
+          7,
+          58,
+          81,
+          82
+        ],
+        [
+          7,
+          74,
+          82,
+          83
+        ],
+        [
+          7,
+          72,
+          79,
+          80
+        ],
+        [
+          7,
+          63,
+          81,
+          83
+        ],
+        [
+          7,
+          70,
+          79,
+          80
+        ],
+        [
+          7,
+          76,
+          82,
+          83
+        ],
+        [
+          7,
+          71,
+          82,
+          83
+        ],
+        [
+          7,
+          72,
+          79,
+          82
+        ],
+        [
+          7,
+          73,
+          82,
+          83
+        ],
+        [
+          7,
+          74,
+          79,
+          81
+        ],
+        [
+          7,
+          70,
+          79,
+          81
+        ],
+        [
+          7,
+          77,
+          82,
+          83
+        ],
+        [
+          7,
+          74,
+          79,
+          82
+        ],
+        [
+          7,
+          60,
+          81,
+          82
+        ],
+        [
+          7,
+          73,
+          79,
+          82
+        ],
+        [
+          7,
+          70,
+          79,
+          83
+        ],
+        [
+          7,
+          69,
+          79,
+          82
+        ],
+        [
+          7,
+          81,
+          82,
+          83
+        ],
+        [
+          7,
+          71,
+          79,
+          82
+        ]
+      ]
+    },
+    "976008": {
+      "r": 8,
+      "report": "logs/product_max_owner_976008_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 58,
+      "pending_coordinates": [
+        [
+          8,
+          79,
+          80,
+          81
+        ],
+        [
+          8,
+          71,
+          80,
+          82
+        ],
+        [
+          8,
+          75,
+          80,
+          81
+        ],
+        [
+          8,
+          78,
+          80,
+          82
+        ],
+        [
+          8,
+          79,
+          80,
+          82
+        ],
+        [
+          8,
+          73,
+          80,
+          81
+        ],
+        [
+          8,
+          71,
+          80,
+          81
+        ],
+        [
+          8,
+          76,
+          80,
+          81
+        ],
+        [
+          8,
+          60,
+          79,
+          80
+        ],
+        [
+          8,
+          58,
+          79,
+          81
+        ],
+        [
+          8,
+          60,
+          79,
+          81
+        ],
+        [
+          8,
+          59,
+          79,
+          80
+        ],
+        [
+          8,
+          72,
+          80,
+          81
+        ],
+        [
+          8,
+          61,
+          79,
+          81
+        ],
+        [
+          8,
+          62,
+          79,
+          81
+        ],
+        [
+          8,
+          77,
+          80,
+          81
+        ],
+        [
+          8,
+          74,
+          80,
+          81
+        ],
+        [
+          8,
+          78,
+          80,
+          81
+        ],
+        [
+          8,
+          56,
+          79,
+          81
+        ],
+        [
+          8,
+          61,
+          79,
+          80
+        ],
+        [
+          8,
+          64,
+          79,
+          80
+        ]
+      ]
+    },
+    "976073": {
+      "r": 9,
+      "report": "logs/product_max_owner_976073_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 2,
+      "pending_coordinates": [
+        [
+          9,
+          69,
+          79,
+          80
+        ],
+        [
+          9,
+          70,
+          79,
+          81
+        ],
+        [
+          9,
+          71,
+          79,
+          81
+        ],
+        [
+          9,
+          69,
+          79,
+          81
+        ],
+        [
+          9,
+          71,
+          79,
+          80
+        ],
+        [
+          9,
+          68,
+          79,
+          81
+        ],
+        [
+          9,
+          70,
+          79,
+          80
+        ]
+      ]
+    },
+    "976266": {
+      "r": 10,
+      "report": "logs/product_max_owner_976266_threethousandhundredseventieth_verification.json",
+      "accepted_negatives": 27,
+      "pending_coordinates": [
+        [
+          10,
+          68,
+          75,
+          77
+        ],
+        [
+          10,
+          67,
+          75,
+          76
+        ],
+        [
+          10,
+          68,
+          75,
+          76
+        ],
+        [
+          10,
+          68,
+          75,
+          78
+        ],
+        [
+          10,
+          67,
+          75,
+          77
+        ],
+        [
+          10,
+          69,
+          75,
+          76
+        ]
+      ]
+    }
+  },
+  "incremental_audit_only": true,
+  "final_full_audit_still_required": true,
+  "coverage_program": "coverage87_distinct_v1.py",
+  "coverage_program_sha256": "abc382579c20086ca72b0cd895f0f9d05411c6968b0af726cab4d7e7ddfb238b"
+}

@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "product_lower_bound": "max(previous+1, product of the smallest required prime powers)",
+  "independent_partition_checks": 389832,
+  "reference": "logs/two_condition_reference_validation.json",
+  "counterexample_preserved": true,
+  "overlap_counterexample_preserved": true,
+  "regression": "cases=12816 positives=4197 mismatches=0 nonpositive_rejected=1 exact_bound_checks=8256 brute_uses_candidate_bound=0\n",
+  "source_sha256": "7cadd3069e1173dfa931e3b28717110cd091cf4f0d9efc22ec73e96bdee269eb",
+  "production_deployed": false
+}

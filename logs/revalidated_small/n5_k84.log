@@ -1,0 +1,11 @@
+n=5 k=84 prefix=38 delta=0.013973
+r=1 xnodes=47 ynodes=33 seconds=6.8999e-05 result=no
+r=2 xnodes=788 ynodes=742 seconds=0.00180757 result=no
+r=3 xnodes=6729 ynodes=84401 seconds=0.0951302 result=no
+r=4 xnodes=30730 ynodes=1650854 seconds=1.69441 result=no
+r=5 xnodes=79376 ynodes=8435033 seconds=8.47026 result=no
+r=6 xnodes=114405 ynodes=13169115 seconds=11.7471 result=no
+r=7 xnodes=85777 ynodes=6464915 seconds=4.03677 result=no
+r=8 xnodes=28159 ynodes=925519 seconds=0.49906 result=no
+r=9 xnodes=2636 ynodes=28731 seconds=0.0168968 result=no
+r-bound=10

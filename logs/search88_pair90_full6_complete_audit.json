@@ -1,0 +1,57 @@
+{
+  "valid": true,
+  "scope": "21 prioritized 90-base pair-deletion six-divisor-tail variants",
+  "completed_pairs": 21,
+  "complete_prioritized_21_exclusion": true,
+  "exact_historical_negatives": 13,
+  "exact_recomputed_negatives": 8,
+  "invalid_historical_targets_recomputed": [
+    [
+      80,
+      100
+    ],
+    [
+      81,
+      100
+    ],
+    [
+      84,
+      100
+    ],
+    [
+      88,
+      100
+    ],
+    [
+      90,
+      100
+    ],
+    [
+      92,
+      100
+    ],
+    [
+      98,
+      100
+    ],
+    [
+      99,
+      100
+    ]
+  ],
+  "all_pairs_covered_exactly_once": true,
+  "all_targets_verified_with_exact_rational_arithmetic": true,
+  "found88": false,
+  "visited_total": 422568248,
+  "sum_worker_seconds": 13808.396,
+  "source_sha256": "7d9934570adc807dce967873d2c86ffdebc7404b487a1d0ac51f0676a1d2dad2",
+  "binary_sha256": "1cfbf449e44cd1ff03082d036f53502846a8f5dab6813ddd13e48f323e55b38a",
+  "driver_sha256": "3d13bbead697b9efcbacb1cb509890ad6d9da5a80445d663ee2210cfcd1372f6",
+  "selftest": "logs/search88_exact_pair_selftest.log",
+  "old_audit": "logs/search88_pair90_full6_target_audit.json",
+  "exact_eight_results": "logs/search88_exact_pair90_results.json",
+  "all_3486_pairs_excluded": false,
+  "global_88_nonexistence_claimed": false,
+  "S5_upper_bound_unchanged": 89,
+  "created_at": "2026-11-20T05:14:34.377202+00:00"
+}

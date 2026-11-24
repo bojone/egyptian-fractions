@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "first_root": 21,
+  "k": 86,
+  "last_root": 72,
+  "n": 5,
+  "r": 15,
+  "roots": 52,
+  "seconds": 90.65743175521493,
+  "sha256": {
+    "symdiff.cpp": "1664df052cfd6b86e4981abc6771825372287ffd81c2d1cb06b9ccf0f98e868b",
+    "symdiff_exact": "2e553e9417f5ac06516a70c5425d304b8f2c9c2e48961c0a22e5a5fcb265bc32",
+    "two_tail": "e86832b594b4324bdc0c7295370fd85a0c997bfda45542bda069d2dbc0690b52",
+    "two_tail.py": "030c2671c8ffe61cb5b811a40afcb1a5a59a99d60de8d14f7a59d259f33e398a"
+  }
+}

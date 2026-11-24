@@ -1,0 +1,282 @@
+{
+  "valid": true,
+  "scope": "Search chronology, time accounting and progress; no completion-time estimate",
+  "bounds": {
+    "exact_values": {
+      "S(1)": 1,
+      "S(2)": 4,
+      "S(3)": 13,
+      "S(4)": 33
+    },
+    "S5": [
+      87,
+      89
+    ],
+    "exact_S5_undetermined": true
+  },
+  "calendar_evidence": {
+    "earliest_small_case_artifact_mtime_utc": "2026-11-09T05:27:14.948466469+00:00",
+    "latest_safe31990_independent_audit_created_at": "2026-11-24T09:18:13.962220+00:00",
+    "approximate_span_days": 15.16,
+    "caution": "Artifact timestamps demonstrate an exploration span, not a continuous full-load run or a precise start time.",
+    "baseline_safe31700_snapshot_created_at": "2026-11-24T07:58:00.817953+00:00",
+    "baseline_safe31700_independent_audit_created_at": "2026-11-24T08:01:15.767714+00:00"
+  },
+  "small_case_printed_seconds": {
+    "n=3 k=11": {
+      "printed_seconds": 5.742e-06,
+      "timed_r_records": 1
+    },
+    "n=3 k=12": {
+      "printed_seconds": 0.000287969,
+      "timed_r_records": 3
+    },
+    "n=3 k=13": {
+      "printed_seconds": 5.5153e-05,
+      "timed_r_records": 2
+    },
+    "n=4 k=31": {
+      "printed_seconds": 0.002345255,
+      "timed_r_records": 5
+    },
+    "n=4 k=32": {
+      "printed_seconds": 6.703523596,
+      "timed_r_records": 7
+    },
+    "n=4 k=33": {
+      "printed_seconds": 2.399582102,
+      "timed_r_records": 3
+    },
+    "n=5 k=83": {
+      "printed_seconds": 0.00021119299999999998,
+      "timed_r_records": 3
+    },
+    "n=5 k=84": {
+      "printed_seconds": 914.418441447,
+      "timed_r_records": 9
+    }
+  },
+  "long_coordinate_examples": [
+    {
+      "coordinate": [
+        4,
+        77,
+        79,
+        85
+      ],
+      "ynodes": 17387945695,
+      "seconds": 168442,
+      "hours_approx": 46.79,
+      "result": "no",
+      "log": "logs/fixed87_depth3/r4_x77_y79_z85.log",
+      "log_sha256": "1348b0fdc89ab83de6bc22211438e851321240a8d2b74216b01ab5e163165675"
+    },
+    {
+      "coordinate": [
+        10,
+        67,
+        69,
+        70
+      ],
+      "ynodes": 21777794325,
+      "seconds": 43997,
+      "hours_approx": 12.22,
+      "result": "no",
+      "log": "logs/fixed86_depth3/r10_x67_y69_z70.log",
+      "log_sha256": "096a09479c191cdfdb1670ef704fce39c09c555963e9a0c2cef2526e5e66e3a7"
+    }
+  ],
+  "latest_parent_example": [
+    {
+      "coordinate": [
+        11,
+        51,
+        75,
+        76
+      ],
+      "xnodes": 495,
+      "ynodes": 2005983943,
+      "seconds": 7978.24,
+      "result": "no",
+      "log": "logs/fixed87_depth3/r11_x51_y75_z76.log",
+      "log_sha256": "60274bdc0c1c9c4bd073fab49183a879a229a86659d490988326b5b98f70c2c3"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        75,
+        77
+      ],
+      "xnodes": 165,
+      "ynodes": 842074549,
+      "seconds": 3609.76,
+      "result": "no",
+      "log": "logs/fixed87_depth3/r11_x51_y75_z77.log",
+      "log_sha256": "5edbe4d7d437ff204d97774939aae6cd14a4554b6040c6995e37b27364af48ff"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        75,
+        78
+      ],
+      "xnodes": 45,
+      "ynodes": 255763936,
+      "seconds": 1037.3,
+      "result": "no",
+      "log": "logs/fixed87_depth3/r11_x51_y75_z78.log",
+      "log_sha256": "2ce0fca073d347f1a291f75bcbe01ba56288fd97f70e360d429b2122eaee28f5"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        75,
+        79
+      ],
+      "xnodes": 9,
+      "ynodes": 42604355,
+      "seconds": 164.145,
+      "result": "no",
+      "log": "logs/fixed87_depth3/r11_x51_y75_z79.log",
+      "log_sha256": "817fac4165bab1b37271c907db9f9c37d7027e2db9a96b2d86379ffbb931ba44"
+    }
+  ],
+  "baseline_checkpoint": {
+    "stage": 31700,
+    "verified_safe_logs": 276997,
+    "uncovered": 3109,
+    "by_r": {
+      "4": 14,
+      "5": 155,
+      "6": 338,
+      "7": 386,
+      "8": 658,
+      "9": 574,
+      "10": 436,
+      "11": 314,
+      "12": 207,
+      "13": 27,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0
+    },
+    "snapshot_sha256": "4b3deb581f3113b6792c21ab1f872d1a75042ce01251ff9e50013933c10eb161",
+    "independent_coverage_sha256": "662f00c6942ba7138c468f50177eb1309c3f43937d6a83692b00ddc11f830038",
+    "inventory": "logs/uncovered_parents_safe31700.json",
+    "inventory_sha256": "babdf43f726ab5e057cc5295f27a616e3a6a7f4a4c9bc8653cf9f13b9aab37f7"
+  },
+  "latest_independent_checkpoint": {
+    "stage": 31990,
+    "verified_safe_logs": 277076,
+    "uncovered": 3101,
+    "by_r": {
+      "4": 14,
+      "5": 155,
+      "6": 338,
+      "7": 386,
+      "8": 658,
+      "9": 573,
+      "10": 434,
+      "11": 310,
+      "12": 206,
+      "13": 27,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0
+    },
+    "snapshot_sha256": "795a331bcc41724b63766123b6eb8a90dae9d5571871cf3964e61a2c68845f16",
+    "independent_coverage_sha256": "5d7a7be463da590b31eeea2311b56ded0dd44d6451b943d6b3a8bbbabd8063eb",
+    "audit_created_at": "2026-11-24T09:18:13.962220+00:00",
+    "representations_found": [],
+    "uncovered_inventory": "logs/uncovered_parents_safe31990.json",
+    "uncovered_inventory_sha256": "26862c51260a3e627fab4760dbc05badebc97613aa424dd2b598a7678111ba07"
+  },
+  "continuous_audit_window": {
+    "first_stage": 31000,
+    "last_stage": 31990,
+    "first_created_at": "2026-11-24T04:52:57.219581+00:00",
+    "last_created_at": "2026-11-24T09:15:33.987480+00:00",
+    "elapsed_seconds": 15756.767899,
+    "elapsed_hours_approx": 4.3769,
+    "first_verified_logs": 276835,
+    "last_verified_logs": 277076,
+    "additional_verified_logs": 241,
+    "first_uncovered": 3118,
+    "last_uncovered": 3101,
+    "parent_reduction": 17,
+    "caution": "This window mixes production, ownership verification and independent audits; it is not a pure-search throughput measurement."
+  },
+  "milestones": [
+    {
+      "date_utc": "2026-11-09",
+      "event": "Small-case exhaustive logs; exact values S(3)=13 and S(4)=33 established"
+    },
+    {
+      "date_utc": "2026-11-10",
+      "event": "85-term pure-CPU coverage reports zero uncovered branches; small-case revalidation archived"
+    },
+    {
+      "date_utc": "2026-11-12T15:15:02.893925+00:00",
+      "event": "86-term final coverage and 118/118-child, 9/9-parent audit complete"
+    },
+    {
+      "date_utc": "2026-11-16T01:29:31.804811+00:00",
+      "event": "Hybrid production smoke representation verified; not a coverage claim"
+    },
+    {
+      "date_utc": "2026-11-24T07:58:00.817953+00:00",
+      "event": "safe31700 baseline snapshot with 3109 uncovered parents"
+    },
+    {
+      "date_utc": "2026-11-24T09:18:13.962220+00:00",
+      "event": "safe31990 independent full-hash audit with 3101 uncovered parents"
+    }
+  ],
+  "hardware_record": {
+    "gpu_devices": 8,
+    "nonpaused_compute_slots": 288,
+    "specific_models_included": false,
+    "continuous_full_load_not_claimed": true
+  },
+  "r4_pending_coordinates": [
+    [
+      4,
+      73,
+      84,
+      85
+    ],
+    [
+      4,
+      76,
+      81,
+      84
+    ],
+    [
+      4,
+      76,
+      82,
+      83
+    ],
+    [
+      4,
+      76,
+      83,
+      84
+    ]
+  ],
+  "term88_status": "Only named local construction families were exhausted; no global 88-term exclusion and no 87/88 representation found",
+  "time_accounting": {
+    "total_cpu_hours_known": false,
+    "total_gpu_hours_known": false,
+    "meaningful_global_percentage_known": false,
+    "stage_numbers_are_seconds": false,
+    "remaining_parents_are_candidate_counts": false,
+    "completion_estimate_available": false,
+    "reason": "Parent costs vary by orders of magnitude, scheduling and hardware changed, and no complete resource-time ledger exists."
+  }
+}

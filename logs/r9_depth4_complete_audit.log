@@ -1,0 +1,20 @@
+{
+  "k": 86,
+  "record": "logs/r9_final_depth4_suspend.json",
+  "accepted_children": 118,
+  "expected_children": 118,
+  "verified_closed_parents": 9,
+  "verified_representations": [],
+  "failures": [],
+  "all_parents_verified": true,
+  "audited_at": "2026-11-12T15:15:02.893925+00:00"
+}
+parent=[9, 62, 71, 72] accepted=9/9 remaining=[] verified_closed=True
+parent=[9, 63, 64, 65] accepted=16/16 remaining=[] verified_closed=True
+parent=[9, 63, 64, 66] accepted=15/15 remaining=[] verified_closed=True
+parent=[9, 63, 64, 68] accepted=13/13 remaining=[] verified_closed=True
+parent=[9, 63, 65, 66] accepted=15/15 remaining=[] verified_closed=True
+parent=[9, 63, 65, 67] accepted=14/14 remaining=[] verified_closed=True
+parent=[9, 63, 65, 68] accepted=13/13 remaining=[] verified_closed=True
+parent=[9, 63, 65, 69] accepted=12/12 remaining=[] verified_closed=True
+parent=[9, 63, 65, 70] accepted=11/11 remaining=[] verified_closed=True

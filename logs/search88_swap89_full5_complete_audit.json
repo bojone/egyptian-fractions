@@ -1,0 +1,60 @@
+{
+  "valid": true,
+  "scope": "all 41 small-base replacements in the verified 89-term base, each followed by a complete five-divisor-tail search",
+  "variants": 41,
+  "complete_41_exclusion": true,
+  "exact_historical_negatives": 32,
+  "exact_recomputed_negatives": 9,
+  "invalid_historical_targets_recomputed": [
+    [
+      100,
+      96
+    ],
+    [
+      100,
+      95
+    ],
+    [
+      100,
+      94
+    ],
+    [
+      100,
+      93
+    ],
+    [
+      100,
+      91
+    ],
+    [
+      100,
+      82
+    ],
+    [
+      100,
+      87
+    ],
+    [
+      100,
+      86
+    ],
+    [
+      100,
+      85
+    ]
+  ],
+  "all_replacements_covered_exactly_once": true,
+  "all_targets_verified_with_exact_rational_arithmetic": true,
+  "found88": false,
+  "visited_total": 71806849,
+  "sum_worker_seconds": 3806.8411,
+  "source_sha256": "3b0d06585e04276876c9460ab703bfb5a00123efa51d0f6710e5de22c439bb1e",
+  "binary_sha256": "6093b2910ebc7df8e302cb534d1ea38d63d2e9ef5eb79e8727515be58a810df3",
+  "driver_sha256": "bf635cf66bc74bd45e997be1a67ea1d992a7de31c3f821cea2f50b2c207c4e51",
+  "selftest": "logs/search88_exact_swap_selftest.log",
+  "old_audit": "logs/search88_swap89_full5_target_audit.json",
+  "exact_nine_results": "logs/search88_exact_swap_results.json",
+  "global_88_nonexistence_claimed": false,
+  "S5_upper_bound_unchanged": 89,
+  "created_at": "2026-11-20T04:47:24.126304+00:00"
+}

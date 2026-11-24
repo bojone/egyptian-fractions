@@ -1,0 +1,33 @@
+scoped coverage only: r=13; not a global coverage total
+uncovered_parent 13 42 67
+uncovered_parent 13 42 68
+uncovered_parent 13 42 69
+uncovered_parent 13 42 71
+uncovered_parent 13 43 55
+uncovered_parent 13 43 56
+uncovered_parent 13 43 57
+uncovered_parent 13 59 72
+uncovered_parent 13 62 72
+uncovered_parent 13 63 72
+uncovered_parent 13 64 72
+uncovered_parent 13 64 73
+uncovered_parent 13 65 72
+uncovered_parent 13 66 72
+uncovered_parent 13 67 72
+uncovered_parent 13 67 73
+uncovered_parent 13 67 75
+uncovered_parent 13 68 75
+uncovered_parent 13 69 72
+uncovered_parent 13 69 75
+uncovered_parent 13 70 73
+uncovered_parent 13 70 74
+uncovered_parent 13 70 75
+uncovered_parent 13 71 73
+uncovered_parent 13 71 75
+uncovered_parent 13 72 73
+uncovered_parent 13 72 75
+r=13: root exclusions 0/59; secondary exclusions 1743/1770; uncovered 27
+verified_safe_logs: 35744
+unverified_safe_owner_logs: 91
+representations found: []
+uncovered branches: 27

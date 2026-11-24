@@ -1,0 +1,36 @@
+{
+  "valid": true,
+  "complete_local_family": true,
+  "scope": "Every three-element subset of the known 89-term representation, replaced by two distinct unit fractions",
+  "all_triples": 113564,
+  "exactly_searched_nonempty_ranges": 113562,
+  "zero_range_excluded_by_two_term_maximum": [
+    2,
+    3,
+    6
+  ],
+  "outlier": [
+    1821627808,
+    323912070702990,
+    1848221296482496
+  ],
+  "outlier_tested_g": 240377,
+  "outlier_independent_negative": true,
+  "avoided_squared_divisor_pair_count": 1088125448,
+  "scan_triples": 111646,
+  "divisor_triples": 1916,
+  "tested_candidates_recomputed": 1559451,
+  "representations": [],
+  "found_88": false,
+  "global_88_nonexistence_claimed": false,
+  "source": "logs/construct89_emath.json",
+  "source_sha256": "88e9933185e26f2cbdfcdfe7ff381cf47dbbfe226c9298efc60091b077148f49",
+  "cost_report": "logs/search88_three_to_two_cost80000.json",
+  "cost_report_sha256": "b382dd09798f0237e3dbfeb66a5ac2bb7cb944281ef7e6223bb7e846a0971e7b",
+  "outlier_report": "logs/search88_three_to_two_outlier.json",
+  "outlier_report_sha256": "633ff775cef05efae70db518822e095c85d4ff8df2e5cc660ef8e4742fea19ac",
+  "cost_program_sha256": "bd75e92438128696696b0c975bfe3f8e34eeccab821c72e9006f83f4ab3d1f5e",
+  "audit_program_sha256": "f167d4acd30f2ffd594014ae420f72907ab163aa7351c940675fabf56df5a2e4",
+  "seconds": 1.1674321978352964,
+  "created_at": "2026-11-20T07:38:29.728621+00:00"
+}

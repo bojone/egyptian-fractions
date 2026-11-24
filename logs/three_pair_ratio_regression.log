@@ -1,0 +1,2 @@
+tasks=2404 positives=655 negatives=1749 fallbacks=0
+ALL THREE-PAIR-LIFT REGRESSIONS PASSED old=tasks=2404 seconds=8.45664 new=tasks=2404 seconds=7.9994 old_wall=10.633 new_wall=8.493

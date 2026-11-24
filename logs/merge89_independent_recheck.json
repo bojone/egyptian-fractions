@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "scope": "Independent exhaustive pair-to-one and triple-to-one check; duplicate merged denominators are rejected by exact summation",
+  "source": "logs/construct89_emath.json",
+  "source_sha256": "88e9933185e26f2cbdfcdfe7ff381cf47dbbfe226c9298efc60091b077148f49",
+  "checked_pairs": 3916,
+  "checked_triples": 113564,
+  "pair_duplicates_rejected": 58,
+  "triple_duplicates_rejected": 214,
+  "valid_88_merges": [],
+  "valid_87_merges": [],
+  "found88": false,
+  "found87": false,
+  "global_88_nonexistence_claimed": false
+}

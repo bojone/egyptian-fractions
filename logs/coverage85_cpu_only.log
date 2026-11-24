@@ -1,0 +1,15 @@
+r=1 xnodes=60 ynodes=12 seconds=4.5532e-05 result=no
+r=2 xnodes=1429 ynodes=1345 seconds=0.0604643 result=no
+r=3 xnodes=19482 ynodes=740113 seconds=7.27694 result=no
+r=12: complete
+r=13: complete
+r=4: root exclusions 56/56; secondary exclusions 0/0
+r=5: root exclusions 22/55; secondary exclusions 660/660
+r=6: root exclusions 17/54; secondary exclusions 740/740
+r=7: root exclusions 16/53; secondary exclusions 703/703
+r=8: root exclusions 17/52; secondary exclusions 630/630
+r=9: root exclusions 0/51; secondary exclusions 1326/1326
+r=10: root exclusions 0/50; secondary exclusions 1275/1275
+r=11: root exclusions 0/49; secondary exclusions 1225/1225
+representations found: []
+uncovered branches: 0

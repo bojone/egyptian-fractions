@@ -1,0 +1,28 @@
+{
+  "valid": true,
+  "scope": "Curated forced-fallback experiment summaries; original absolute paths omitted",
+  "positive": {
+    "forced_failure": "GPU candidate method failed; used exhaustive CPU fallback",
+    "factors": [
+      7,
+      13
+    ],
+    "tested_divisors": 3,
+    "a": 28,
+    "b": 52,
+    "certificate": "1/28+1/52=5/91",
+    "exact_rational_verified": true,
+    "original_log_sha256": "db8633061a40408565230b61e175c76ca6e414fd3bfb2f67c590ce00ba1207ee"
+  },
+  "negative": {
+    "forced_failure": "GPU candidate method failed; used exhaustive CPU fallback",
+    "factors": [
+      7
+    ],
+    "tested_divisors": 1,
+    "result": "NO exact (exhaustive CPU fallback)",
+    "original_log_sha256": "74f817a97fc9a0a89846c1fff8f29e95a36a5fa240da06e9c362a2d90d3b8614"
+  },
+  "original_files_modified": false,
+  "curated_paths_replaced_with_original_hashes": true
+}

@@ -1,0 +1,18 @@
+r=1: complete
+r=2: complete
+r=3: complete
+r=4: complete
+r=5: root exclusions 0/62; secondary exclusions 1953/1953; uncovered 0
+r=6: root exclusions 14/61; secondary exclusions 1128/1128; uncovered 0
+r=7: root exclusions 0/60; secondary exclusions 1830/1830; uncovered 0
+r=8: root exclusions 0/59; secondary exclusions 1770/1770; uncovered 0
+r=9: root exclusions 0/58; secondary exclusions 1711/1711; uncovered 0
+r=10: root exclusions 0/57; secondary exclusions 1653/1653; uncovered 0
+r=11: root exclusions 0/56; secondary exclusions 1596/1596; uncovered 0
+r=12: root exclusions 25/55; secondary exclusions 465/465; uncovered 0
+r=13: root exclusions 0/54; secondary exclusions 1485/1485; uncovered 0
+r=14: root exclusions 0/53; secondary exclusions 1431/1431; uncovered 0
+r=15: complete
+r=16: complete
+representations found: []
+uncovered branches: 0

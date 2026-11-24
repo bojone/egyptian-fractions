@@ -1,0 +1,62 @@
+{
+  "valid": true,
+  "scope": "Fresh-directory source reruns of five local 89-to-88 construction families",
+  "all_reports_complete_local_only": true,
+  "global_88_nonexistence_claimed": false,
+  "representations_found": [],
+  "checks": [
+    {
+      "report": "logs/audit89_pair_triple_merges.json",
+      "expected_fields": {
+        "checked_pairs": 3916,
+        "checked_triples": 113564,
+        "unit_sum_pairs_with_duplicate_merged_denominator": 58,
+        "unit_sum_triples_with_duplicate_merged_denominator": 214,
+        "representations": []
+      },
+      "valid": true
+    },
+    {
+      "report": "logs/search88_base_pair_swaps.json",
+      "expected_fields": {
+        "base_pairs": 3403,
+        "two_denominator_solutions": 3403,
+        "solutions_returning_to_original": 3403,
+        "unique_new_89_states": 0,
+        "representations": []
+      },
+      "valid": true
+    },
+    {
+      "report": "logs/search88_split_merge_neighbors.json",
+      "expected_fields": {
+        "split_candidates": 359,
+        "unique_split_states": 238,
+        "merge_applications": 238,
+        "unique_new_89_states": 0,
+        "representations": []
+      },
+      "valid": true
+    },
+    {
+      "report": "logs/search88_two_split_neighbors.json",
+      "expected_fields": {
+        "split_operation_pairs": 60487,
+        "unique_two_split_states": 25885,
+        "unique_new_89_states": 0,
+        "representations": []
+      },
+      "valid": true
+    },
+    {
+      "report": "logs/search88_sequential_split_neighbors.json",
+      "expected_fields": {
+        "sequential_split_operations": 7984,
+        "unique_sequential_two_split_states": 7913,
+        "unique_new_89_states": 0,
+        "representations": []
+      },
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+r=1: complete
+r=2: complete
+r=3: complete
+r=4: root exclusions 50/68; secondary exclusions 274/288; uncovered 14
+r=5: root exclusions 23/67; secondary exclusions 835/990; uncovered 155
+r=6: root exclusions 0/66; secondary exclusions 1873/2211; uncovered 338
+r=7: root exclusions 0/65; secondary exclusions 1759/2145; uncovered 386
+r=8: root exclusions 0/64; secondary exclusions 1422/2080; uncovered 658
+r=9: root exclusions 0/63; secondary exclusions 1442/2016; uncovered 574
+r=10: root exclusions 0/62; secondary exclusions 1517/1953; uncovered 436
+r=11: root exclusions 0/61; secondary exclusions 1577/1891; uncovered 314
+r=12: root exclusions 0/60; secondary exclusions 1623/1830; uncovered 207
+r=13: root exclusions 0/59; secondary exclusions 1743/1770; uncovered 27
+r=14: root exclusions 0/58; secondary exclusions 1711/1711; uncovered 0
+r=15: root exclusions 28/57; secondary exclusions 435/435; uncovered 0
+r=16: root exclusions 37/56; secondary exclusions 190/190; uncovered 0
+r=17: root exclusions 55/55; secondary exclusions 0/0; uncovered 0
+r=18: complete
+r=19: complete
+verified_safe_logs: 276997
+unverified_safe_owner_logs: 1672
+representations found: []
+uncovered branches: 3109

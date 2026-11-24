@@ -1,0 +1,9 @@
+n=4 k=32 prefix=11 delta=0.0584952
+r=1 xnodes=22 ynodes=6 seconds=2.5441e-05 result=no
+r=2 xnodes=192 ynodes=171 seconds=0.000355301 result=no
+r=3 xnodes=851 ynodes=8206 seconds=0.00830078 result=no
+r=4 xnodes=2005 ynodes=55306 seconds=0.0520197 result=no
+r=5 xnodes=2408 ynodes=77966 seconds=0.0719161 result=no
+r=6 xnodes=1294 ynodes=23843 seconds=0.0222242 result=no
+r=7 xnodes=218 ynodes=1161 seconds=0.0013017 result=no
+r-bound=8

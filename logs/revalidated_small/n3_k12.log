@@ -1,0 +1,5 @@
+n=3 k=12 prefix=5 delta=0.103211
+r=1 xnodes=8 ynodes=4 seconds=1.4505e-05 result=no
+r=2 xnodes=21 ynodes=14 seconds=4.6465e-05 result=no
+r=3 xnodes=24 ynodes=25 seconds=5.8619e-05 result=no
+r-bound=4

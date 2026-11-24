@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "method": "independent exhaustive divisor pairs of q^2, using (p*a-q)(p*b-q)=q^2",
+  "checked_base_pairs": 3403,
+  "solutions": 3403,
+  "solutions_returning_to_original": 3403,
+  "unique_new_89_states": 0,
+  "new_89_examples": [],
+  "matches_prior_report": true,
+  "global_88_nonexistence_claimed": false,
+  "source": "logs/construct89_emath.json",
+  "source_sha256": "88e9933185e26f2cbdfcdfe7ff381cf47dbbfe226c9298efc60091b077148f49",
+  "prior_report": "logs/search88_base_pair_swaps.json",
+  "program_sha256": "15f05de113f19528dadbefe9dead2f570c326f2669eabe190fb39adb60c92e85",
+  "seconds": 2.9124290398322046,
+  "created_at": "2026-11-20T16:06:54.335311+00:00"
+}

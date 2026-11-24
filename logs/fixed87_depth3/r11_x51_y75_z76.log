@@ -1,0 +1,6 @@
+nodes=16777216 depth=7 seconds=73.522
+nodes=16777216 depth=7 seconds=68.5498
+nodes=16777216 depth=7 seconds=66.0505
+nodes=16777216 depth=7 seconds=72.5089
+r=11 fixed=51,75,76, xnodes=495 ynodes=2005983943 seconds=7978.24 result=no
+engine=cpu-gpu-three-v1

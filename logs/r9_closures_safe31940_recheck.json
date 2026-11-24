@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "r": 9,
+  "stage": 31940,
+  "previous_stage": 31310,
+  "previous_count": 574,
+  "current_count": 573,
+  "closed_parents": [
+    [
+      9,
+      45,
+      61
+    ]
+  ],
+  "accepted_coordinate_count": 20,
+  "coverage": "logs/r9_scoped_coverage_safe31940_recheck.log",
+  "coverage_sha256": "8a98981934da9bd181bfbdffc5d76f383e19ee5bd0c74ab1e9f4e0d1a723257e",
+  "summary": "logs/r9_new_closures_safe31940_summary.json",
+  "verified_existing": true
+}

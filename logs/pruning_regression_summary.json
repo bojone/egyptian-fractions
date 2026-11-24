@@ -1,0 +1,24 @@
+{
+  "valid": true,
+  "scope": "Curated pruning regression summary; performance profiles are not coverage certificates",
+  "two_tail_complete_fallback": {
+    "full_positive_cases": 3162,
+    "full_negative_cases": 78730,
+    "fast_path_identical_cases": 79209,
+    "failures": 0,
+    "regression_log": "logs/two_tail_complete_regression.log"
+  },
+  "three_pair_ratio": {
+    "wide_cases": 20736,
+    "wide_failures": 0,
+    "first_denominator_cases": 54039,
+    "pruned": 1150,
+    "positive_first_terms_preserved": 21475,
+    "lost_solutions": 0,
+    "small_gpu_tasks": 2404,
+    "small_gpu_positives": 655,
+    "small_gpu_exact_negatives": 1749,
+    "small_gpu_failures": 0
+  },
+  "performance_profiles_are_not_proof_coverage": true
+}

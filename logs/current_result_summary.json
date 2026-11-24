@@ -1,0 +1,148 @@
+{
+  "valid": true,
+  "exact_values": {
+    "S(1)": 1,
+    "S(2)": 4,
+    "S(3)": 13,
+    "S(4)": 33
+  },
+  "S5_bounds": [
+    87,
+    89
+  ],
+  "exact_S5_undetermined": true,
+  "stage": 31700,
+  "verified_safe_logs": 276997,
+  "uncovered_parents": 3109,
+  "by_r": {
+    "4": 14,
+    "5": 155,
+    "6": 338,
+    "7": 386,
+    "8": 658,
+    "9": 574,
+    "10": 436,
+    "11": 314,
+    "12": 207,
+    "13": 27,
+    "14": 0,
+    "15": 0,
+    "16": 0,
+    "17": 0
+  },
+  "representations_found": [],
+  "global_87_exclusion_complete": false,
+  "global_88_exclusion_complete": false,
+  "snapshot": "logs/production_safe31700_3109.json",
+  "snapshot_sha256": "4b3deb581f3113b6792c21ab1f872d1a75042ce01251ff9e50013933c10eb161",
+  "independent_audit": "logs/independent_safe31700_audit.json",
+  "independent_coverage": "logs/independent_safe31700_coverage.log",
+  "independent_coverage_sha256": "662f00c6942ba7138c468f50177eb1309c3f43937d6a83692b00ddc11f830038",
+  "uncovered_inventory": "logs/uncovered_parents_safe31700.json",
+  "uncovered_inventory_sha256": "babdf43f726ab5e057cc5295f27a616e3a6a7f4a4c9bc8653cf9f13b9aab37f7",
+  "history_summary": "logs/history_safe31700_summary.json",
+  "explicit_89_term_construction": "logs/construct89_emath.json",
+  "history_counts": {
+    "86": {
+      "negative_logs": 236879,
+      "engines": {
+        "none": 202530,
+        "engine=cpu-gpu-three-v1": 34349
+      }
+    },
+    "87": {
+      "negative_logs": 397278,
+      "engines": {
+        "engine=cpu-gpu-three-v1": 323168,
+        "none": 73954,
+        "engine=cpu-gpu-quad-candidate-v1": 6,
+        "engine=cpu-gpu-pair-candidate-v1": 91,
+        "engine=cpu-gpu-triple-candidate-v1": 59
+      }
+    }
+  },
+  "history_depth4_counts": {
+    "86": {
+      "negative_logs": 206,
+      "engines": {
+        "none": 88,
+        "engine=cpu-gpu-three-v1": 118
+      }
+    },
+    "87": {
+      "negative_logs": 97,
+      "engines": {
+        "none": 9,
+        "engine=cpu-gpu-three-v1": 88
+      }
+    }
+  },
+  "r4_pending_coordinates": [
+    [
+      4,
+      73,
+      84,
+      85
+    ],
+    [
+      4,
+      76,
+      81,
+      84
+    ],
+    [
+      4,
+      76,
+      82,
+      83
+    ],
+    [
+      4,
+      76,
+      83,
+      84
+    ]
+  ],
+  "snapshot_valid": true,
+  "latest_independent_checkpoint": {
+    "stage": 31990,
+    "verified_safe_logs": 277076,
+    "uncovered": 3101,
+    "by_r": {
+      "4": 14,
+      "5": 155,
+      "6": 338,
+      "7": 386,
+      "8": 658,
+      "9": 573,
+      "10": 434,
+      "11": 310,
+      "12": 206,
+      "13": 27,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0
+    },
+    "snapshot_sha256": "795a331bcc41724b63766123b6eb8a90dae9d5571871cf3964e61a2c68845f16",
+    "independent_coverage_sha256": "5d7a7be463da590b31eeea2311b56ded0dd44d6451b943d6b3a8bbbabd8063eb",
+    "audit_created_at": "2026-11-24T09:18:13.962220+00:00",
+    "representations_found": [],
+    "uncovered_inventory": "logs/uncovered_parents_safe31990.json",
+    "uncovered_inventory_sha256": "26862c51260a3e627fab4760dbc05badebc97613aa424dd2b598a7678111ba07"
+  },
+  "campaign_summary": "logs/campaign_summary.json",
+  "campaign_documentation": {
+    "zh": "docs/CAMPAIGN.md",
+    "en": "docs/CAMPAIGN.en.md"
+  },
+  "time_accounting": {
+    "total_cpu_hours_known": false,
+    "total_gpu_hours_known": false,
+    "meaningful_global_percentage_known": false,
+    "stage_numbers_are_seconds": false,
+    "remaining_parents_are_candidate_counts": false,
+    "completion_estimate_available": false,
+    "reason": "Parent costs vary by orders of magnitude, scheduling and hardware changed, and no complete resource-time ledger exists."
+  }
+}

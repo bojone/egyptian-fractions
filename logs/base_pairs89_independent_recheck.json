@@ -1,0 +1,13 @@
+{
+  "valid": true,
+  "scope": "Independent exhaustive replacement of every pair of the 83 base denominators by two distinct unit denominators",
+  "source": "logs/construct89_emath.json",
+  "source_sha256": "88e9933185e26f2cbdfcdfe7ff381cf47dbbfe226c9298efc60091b077148f49",
+  "checked_base_pairs": 3403,
+  "two_denominator_solutions": 3403,
+  "solutions_returning_to_original": 3403,
+  "unique_new_89_states": 0,
+  "representations_88": [],
+  "found88": false,
+  "global_88_nonexistence_claimed": false
+}

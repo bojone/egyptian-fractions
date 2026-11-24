@@ -1,0 +1,108 @@
+{
+  "valid": true,
+  "scope": "r11-only no-cache coverage difference and reconstruction linked to safe31910",
+  "parent": [
+    11,
+    51,
+    73
+  ],
+  "parent_closed": true,
+  "closure_mode": "depth3_complete",
+  "previous_scope_stage": 31880,
+  "previous_scoped_log": "logs/r11_scoped_coverage_safe31880.log",
+  "previous_scoped_sha256": "eb7e8d043b45a9893a528a2d5d85a61399ebab548d05667f088a785500f78060",
+  "previous_layer_uncovered_parents": 312,
+  "current_scoped_log": "logs/r11_scoped_coverage_safe31910.log",
+  "current_scoped_sha256": "5e46b5b38c0a55cbfb1a68f773cc5ee1a9c2385802fe0312beab844cb657e8e6",
+  "current_layer_uncovered_parents": 311,
+  "coverage_cache_used": false,
+  "global_snapshot": "logs/production_safe31910_3106.json",
+  "global_snapshot_sha256": "dae6f0b1e1871262e7efbc6a62ab9e6f5604bbb0d716e5a08b4cc94490e4cc62",
+  "global_uncovered_parents": 3106,
+  "verified_owner_logs": 277038,
+  "S5_bounds": [
+    87,
+    89
+  ],
+  "representations_found": [],
+  "global_87_exclusion_complete": false,
+  "new_search_workers_started": false,
+  "production_changed": false,
+  "closure_observed_by_stage": 31910,
+  "first_closure_stage_claimed": false,
+  "created_at": "2026-11-24T08:54:29.831644+00:00",
+  "records": [
+    {
+      "coordinate": [
+        11,
+        51,
+        73,
+        74
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y73_z74.log",
+      "log_sha256": "7feec18608e6c893e7393bbca2609a29893db9710abb1baa2d5ec8aa6542116d",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyseventh_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        73,
+        75
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y73_z75.log",
+      "log_sha256": "935e72ecd801f264709ee97a95f46e91bbd924fd10035cff04ecb3fa2ff8e7bd",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyseventh_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        73,
+        76
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y73_z76.log",
+      "log_sha256": "1dd0b16feb534ea14129f29a67fdab961ae53f78b6a7eaae073fae353dbe3a08",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyseventh_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        73,
+        77
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y73_z77.log",
+      "log_sha256": "b7014b0670a4ca2adce849566b9c274d960362db18d7cc3dc570bef9ff6c65e3",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyseventh_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        73,
+        78
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y73_z78.log",
+      "log_sha256": "d0743aefd62b871c4ea9211b7c7ff301d5e6f0414d2a6d550c0f2ec260c2e427",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyseventh_verification.json"
+    },
+    {
+      "coordinate": [
+        11,
+        51,
+        73,
+        79
+      ],
+      "log": "logs/fixed87_depth3/r11_x51_y73_z79.log",
+      "log_sha256": "e85e1bb4bf66851f00d8b37edaf292264d0ec0f55406c23f96bfc10fdac3333a",
+      "owner": "792144",
+      "owner_report": "logs/product_max_owner_792144_threethousandseventyseventh_verification.json"
+    }
+  ]
+}

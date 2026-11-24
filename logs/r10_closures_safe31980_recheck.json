@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "r": 10,
+  "stage": 31980,
+  "previous_stage": 31970,
+  "previous_count": 435,
+  "current_count": 434,
+  "closed_parents": [
+    [
+      10,
+      46,
+      59
+    ]
+  ],
+  "accepted_coordinate_count": 21,
+  "coverage": "logs/r10_scoped_coverage_safe31980_recheck.log",
+  "coverage_sha256": "dd937e3560a84f89f71ec139eb387f49f90a061cc49b42d435f74b2d0d0bf32c",
+  "summary": "logs/r10_new_closures_safe31980_summary.json",
+  "verified_existing": true
+}

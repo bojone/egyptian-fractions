@@ -1,0 +1,21 @@
+{
+  "valid": true,
+  "relation": "independent_revalidation_of_previously_completed_family",
+  "no_new_coverage_category": true,
+  "old_report": "logs/search88_three_to_two_complete.json",
+  "old_report_sha256": "3a7d0f92ac02e967551030e48d672268714c05ed07f11311f4ae2e871ebf23c6",
+  "new_audit": "logs/search88_three_to_two_complete_audit.json",
+  "new_audit_sha256": "31a9b5b05a61a7958ca140d899a3d7579b96b29a7924c654a4d1fe0b54f998b7",
+  "all_triples": 113564,
+  "same_target_and_negative_result": true,
+  "old_gcd_tests": 1302548,
+  "old_t_tests": 2348055,
+  "new_minimal_residue_g_tests": 240377,
+  "new_selected_candidate_tests": 1559451,
+  "old_source_sha256": "f68a06caaf3f7f491c022f48e1881d2560f0c2f96a0daf356bcd1eed4b4134d3",
+  "old_binary_sha256": "1a4aabbcd35cc13c57b9dc6096db0500bb277d1f59aab41ab2ec5c88d67f0d57",
+  "new_cost_program_sha256": "bd75e92438128696696b0c975bfe3f8e34eeccab821c72e9006f83f4ab3d1f5e",
+  "new_audit_program_sha256": "f167d4acd30f2ffd594014ae420f72907ab163aa7351c940675fabf56df5a2e4",
+  "global_88_nonexistence_claimed": false,
+  "created_at": "2026-11-20T07:51:46.508333+00:00"
+}

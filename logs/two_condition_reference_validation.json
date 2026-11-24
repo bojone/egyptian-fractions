@@ -1,0 +1,321 @@
+{
+  "valid": true,
+  "checked_bounds": 360,
+  "checked_complete_partitions": 389832,
+  "counterexample_preserved": true,
+  "product_counterexample": {
+    "target": "1447/5460",
+    "denominators": [
+      13,
+      15,
+      20,
+      14
+    ],
+    "rest": "79/420",
+    "bound": "337/1680",
+    "witness_preserved": true
+  },
+  "method": "For every pair of necessary conditions, take the maximum of the shared-denominator and separate-denominator upper bounds; then take the minimum over individual conditions and such pair bounds.",
+  "examples": [
+    {
+      "a": 6,
+      "m": 3,
+      "powers": [
+        2,
+        3
+      ],
+      "bound": "191/504",
+      "partition_max": "191/504"
+    },
+    {
+      "a": 6,
+      "m": 4,
+      "powers": [
+        2,
+        3
+      ],
+      "bound": "263/504",
+      "partition_max": "263/504"
+    },
+    {
+      "a": 6,
+      "m": 5,
+      "powers": [
+        2,
+        3
+      ],
+      "bound": "335/504",
+      "partition_max": "335/504"
+    },
+    {
+      "a": 12,
+      "m": 3,
+      "powers": [
+        2,
+        3
+      ],
+      "bound": "587/2730",
+      "partition_max": "587/2730"
+    },
+    {
+      "a": 12,
+      "m": 4,
+      "powers": [
+        2,
+        3
+      ],
+      "bound": "797/2730",
+      "partition_max": "797/2730"
+    },
+    {
+      "a": 12,
+      "m": 5,
+      "powers": [
+        2,
+        3
+      ],
+      "bound": "1007/2730",
+      "partition_max": "1007/2730"
+    },
+    {
+      "a": 1,
+      "m": 3,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "13/12",
+      "partition_max": "13/12"
+    },
+    {
+      "a": 1,
+      "m": 4,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "19/12",
+      "partition_max": "19/12"
+    },
+    {
+      "a": 1,
+      "m": 5,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "25/12",
+      "partition_max": "25/12"
+    },
+    {
+      "a": 4,
+      "m": 3,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "59/120",
+      "partition_max": "59/120"
+    },
+    {
+      "a": 4,
+      "m": 4,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "83/120",
+      "partition_max": "83/120"
+    },
+    {
+      "a": 4,
+      "m": 5,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "107/120",
+      "partition_max": "107/120"
+    },
+    {
+      "a": 6,
+      "m": 3,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "191/504",
+      "partition_max": "191/504"
+    },
+    {
+      "a": 6,
+      "m": 4,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "263/504",
+      "partition_max": "263/504"
+    },
+    {
+      "a": 6,
+      "m": 5,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "335/504",
+      "partition_max": "335/504"
+    },
+    {
+      "a": 12,
+      "m": 3,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "643/3120",
+      "partition_max": "643/3120"
+    },
+    {
+      "a": 12,
+      "m": 4,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "883/3120",
+      "partition_max": "883/3120"
+    },
+    {
+      "a": 12,
+      "m": 5,
+      "powers": [
+        3,
+        4
+      ],
+      "bound": "1123/3120",
+      "partition_max": "1123/3120"
+    },
+    {
+      "a": 1,
+      "m": 3,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "21/20",
+      "partition_max": "21/20"
+    },
+    {
+      "a": 1,
+      "m": 4,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "31/20",
+      "partition_max": "31/20"
+    },
+    {
+      "a": 1,
+      "m": 5,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "41/20",
+      "partition_max": "41/20"
+    },
+    {
+      "a": 2,
+      "m": 3,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "47/60",
+      "partition_max": "47/60"
+    },
+    {
+      "a": 2,
+      "m": 4,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "67/60",
+      "partition_max": "67/60"
+    },
+    {
+      "a": 2,
+      "m": 5,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "29/20",
+      "partition_max": "29/20"
+    },
+    {
+      "a": 5,
+      "m": 3,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "47/120",
+      "partition_max": "47/120"
+    },
+    {
+      "a": 5,
+      "m": 4,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "67/120",
+      "partition_max": "67/120"
+    },
+    {
+      "a": 5,
+      "m": 5,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "29/40",
+      "partition_max": "29/40"
+    },
+    {
+      "a": 6,
+      "m": 3,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "103/280",
+      "partition_max": "103/280"
+    },
+    {
+      "a": 6,
+      "m": 4,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "143/280",
+      "partition_max": "143/280"
+    },
+    {
+      "a": 6,
+      "m": 5,
+      "powers": [
+        4,
+        5
+      ],
+      "bound": "183/280",
+      "partition_max": "183/280"
+    }
+  ]
+}
